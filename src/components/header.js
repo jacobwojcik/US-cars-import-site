@@ -1,33 +1,30 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-
+import "./css/header.scss"
+import {Nav} from 'react-bootstrap'
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+  <header>
+    <Nav className="navba"
+  activeKey="/home"
+  onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
+>
+  <Nav.Item className="navbut">
+    <Nav.Link ><Link className="navLink" to="/">Strona glowna</Link></Nav.Link>
+  </Nav.Item>
+  <Nav.Item className="navbut">
+    <Nav.Link ><Link className="navLink" to="/about">O nas</Link></Nav.Link>
+  </Nav.Item>
+  <Nav.Item className="navbut">
+    <Nav.Link ><Link className="navLink" to="/offer">Oferta</Link></Nav.Link>
+  </Nav.Item >
+  <Nav.Item className="navbut">
+    <Nav.Link  ><Link className="navLink" to="/completions">Realizacje</Link></Nav.Link>
+  </Nav.Item>
+  <Nav.Item className="navbut">
+    <Nav.Link ><Link className="navLink" to="/contact">Kontakt</Link></Nav.Link>
+  </Nav.Item>
+</Nav>
   </header>
 )
 
