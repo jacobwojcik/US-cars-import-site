@@ -3,22 +3,24 @@ import PropTypes from "prop-types"
 import React from "react"
 import {Container,Row,Col} from 'react-bootstrap'
 import "./css/marketing.scss"
+import 'animate.css/animate.css'
 const Marketing = () => (
   <section className="sec2">
       <div>
       <Container>
                     <Row>
-                        <Col>
-                        <h1>imagae</h1>
-                        <p>
-                            
-                        </p>
-                        </Col>
-                        <Col>
-                        <h1>100% zadowolonych klientow</h1>
-                        <h1>98321 zrealizowanych zamowien</h1>
-                        <h1>10 lat w branzy</h1>
-                        </Col>
+                       <Col>
+                       <h1 className="animated infinite swing  ">9393 </h1>
+                       <h3>zrealizowanych zamowien</h3>
+                       </Col>
+                       <Col>
+                       <h1 className="animated infinite swing  ">100 % </h1>
+                       <h3>zadowolonych klientow</h3>
+                       </Col>
+                       <Col>
+                       <h1 className="animated infinite swing  ">15 lat</h1>
+                       <h3>w branzy</h3>
+                       </Col>
                     </Row>
                 </Container>
                 </div>
