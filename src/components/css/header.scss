@@ -1,7 +1,7 @@
 header{
     height: auto;
     padding:15px;
-    background-color: rgb(42, 54, 54);
+    background-color:rgb(26, 26, 29);
     align-items: center;
 }
 
@@ -21,4 +21,25 @@ header{
     margin-right: 30px;
     // border: 1px double black;
     
+}
+.iconhead{
+   position: absolute;
+   right: 5%;
+    color: white;
+}
+.iconhead2{
+    position: absolute;
+    right: 1%;
+    color: white;
+}
+
+
+
+
+//aboutus
+
+.sec1{
+    background-color: rgb(41, 41, 44);
+    padding: 30px;
+    color: white;
 }
