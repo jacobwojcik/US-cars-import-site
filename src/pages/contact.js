@@ -6,6 +6,12 @@ import {Container,Row,Col} from 'react-bootstrap'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../components/css/contact.scss"
+import "@fortawesome/fontawesome-svg-core"
+import "@fortawesome/free-brands-svg-icons"
+import "@fortawesome/free-solid-svg-icons"
+import "@fortawesome/free-regular-svg-icons"
+import "@fortawesome/react-fontawesome"
+
 const Contact = () => (
   <Layout>
     <SEO title="Kontakt" />
