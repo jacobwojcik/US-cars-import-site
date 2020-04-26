@@ -4,9 +4,16 @@ import React from "react"
 import {Container,Row,Col} from 'react-bootstrap'
 import "./css/map.scss"
 import Iframe from 'react-iframe'
+import 'animate.css/animate.css'
+import WOW from "wow.js"
 
-const Map = () => (
-  <section className="sec4">
+class Map  extends React.Component{
+  componentDidMount(){
+    new WOW().init();
+  }
+  render(){
+return(
+  <section className="sec4 wow fadeInUp">
       <Container>
       <Row>
           <Col>
@@ -29,6 +36,7 @@ const Map = () => (
         </Row>
                 </Container>
   </section>
-)
-
+);
+  }
+}
 export default Map

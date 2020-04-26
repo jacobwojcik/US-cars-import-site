@@ -4,7 +4,7 @@ import "./css/header.scss"
 import Pic1 from './gatimages/pic1'
 
 
-class Aboutus  extends React.Component{
+class AboutusCom  extends React.Component{
     
     render(){
     return (
@@ -38,4 +38,4 @@ class Aboutus  extends React.Component{
     );
 }
 }
-export default Aboutus
+export default AboutusCom

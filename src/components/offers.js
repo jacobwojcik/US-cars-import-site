@@ -4,9 +4,16 @@ import React from "react"
 import {Container,Row,Col} from 'react-bootstrap'
 import Iframe from 'react-iframe'
 import "./css/marketing.scss"
+import 'animate.css/animate.css'
+import WOW from "wow.js"
 
-const Offers = () => (
-  <section className="sec3">
+class Offers extends React.Component{
+    componentDidMount(){
+      new WOW().init();
+    }
+    render(){
+return (
+  <section className="sec3 wow fadeInUp">
       <div>
       <Container>
                     <Row>
@@ -47,6 +54,8 @@ const Offers = () => (
                 </Container>
                 </div>
   </section>
-)
+);
+    }
+}
 
 export default Offers

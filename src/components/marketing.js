@@ -4,8 +4,15 @@ import React from "react"
 import {Container,Row,Col} from 'react-bootstrap'
 import "./css/marketing.scss"
 import 'animate.css/animate.css'
-const Marketing = () => (
-  <section className="sec2">
+import WOW from "wow.js"
+
+class Marketing extends React.Component{
+  componentDidMount(){
+    new WOW().init();
+  }
+  render(){
+    return(
+  <section className="sec2 wow fadeInUp">
       <div>
       <Container>
                     <Row>
@@ -25,6 +32,8 @@ const Marketing = () => (
                 </Container>
                 </div>
   </section>
-)
-
+  );
+}
+}
 export default Marketing
+
