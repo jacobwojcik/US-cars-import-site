@@ -6,10 +6,11 @@ import "./css/marketing.scss"
 import 'animate.css/animate.css'
 import WOW from "wow.js"
 
+
 class Marketing extends React.Component{
-  componentDidMount(){
-    new WOW().init();
-  }
+  // componentDidMount(){
+  //   new WOW().init();
+  // }
   render(){
     return(
   <section className="sec2 wow fadeInUp">

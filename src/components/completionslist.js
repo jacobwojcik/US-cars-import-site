@@ -1,4 +1,4 @@
-import { Link } from "gatsby"
+
 import PropTypes from "prop-types"
 import React from "react"
 import {Container,Row,Col} from 'react-bootstrap'
@@ -9,10 +9,13 @@ import WOW from "wow.js"
 import ReactFancyBox from 'react-fancybox'
 import 'react-fancybox/lib/fancybox.css'
 
+
 class CompletionsList  extends React.Component{
-  componentDidMount(){
-    new WOW().init();
-  }
+//    if (typeof window !== `undefined`) {
+//   componentDidMount(){
+//     new WOW().init();
+//   }
+// }
   render(){
 return(
     <section>

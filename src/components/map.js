@@ -7,10 +7,11 @@ import Iframe from 'react-iframe'
 import 'animate.css/animate.css'
 import WOW from "wow.js"
 
+
 class Map  extends React.Component{
-  componentDidMount(){
-    new WOW().init();
-  }
+  // componentDidMount(){
+  //   new WOW().init();
+  // }
   render(){
 return(
   <section className="sec4 wow fadeInUp">

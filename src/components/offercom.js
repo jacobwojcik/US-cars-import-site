@@ -6,9 +6,9 @@ import WOW from "wow.js"
 
 
 class OfferCom  extends React.Component{
-    componentDidMount(){
-        new WOW().init();
-      }
+    // componentDidMount(){
+    //     new WOW().init();
+    //   }
     render(){
     return (
         <section className="secOffer" >
