@@ -19,7 +19,7 @@ const Pic1 = () => {
       }
     `)
   
-    return <Img fixed={data.image.childImageSharp.fixed} />
+    return <Img fluid={data.image.childImageSharp.fluid} />
   }
   
   export default Pic1

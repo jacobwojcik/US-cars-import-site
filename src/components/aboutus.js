@@ -9,7 +9,7 @@ export default function Aboutus() {
             <div>
                 <Container>
                     <Row>
-                        <Col>
+                        <Col sm={6}>
                         <h1>Kim jestesmy?</h1>
                         <p>
                         Specjalizujemy się poszukiwaniu i zakupie samochodow
@@ -24,7 +24,7 @@ export default function Aboutus() {
                             
                         </p>
                         </Col>
-                        <Col>
+                        <Col sm={6}>
                             <Pic1/>
                         </Col>
                     </Row>

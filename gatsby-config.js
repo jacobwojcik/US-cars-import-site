@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Us cars import`,
-    description: `The best cars direct from USA`,
+    title: `Us Cars Import`,
+    description: `Najlepszy import samochodów z Usa i Kanady`,
     author: `JW`,
   },
   plugins: [

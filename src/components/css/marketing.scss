@@ -15,9 +15,18 @@
 .sec3{
     background-color: rgb(29, 31, 29);
     padding: 30px;
-    //height: auto;
+    height: auto;
 }
 h1{
     color:white;
 }
-
+.frame{
+    
+ 
+    transform: scale(0.70); 
+    transform-origin: 0 0;
+    
+}
+.offerCol{
+    padding:10px;
+}

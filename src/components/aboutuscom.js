@@ -8,11 +8,11 @@ class AboutusCom  extends React.Component{
     
     render(){
     return (
-        <section className="sec1">
+        <section className="aboutuscom">
             <div>
-                <Container>
+            <Container>
                     <Row>
-                        <Col>
+                        <Col sm={6}>
                         <h1>Kim jestesmy?</h1>
                         <p>
                         Specjalizujemy się poszukiwaniu i zakupie samochodow
@@ -27,7 +27,7 @@ class AboutusCom  extends React.Component{
                             
                         </p>
                         </Col>
-                        <Col>
+                        <Col sm={6}>
                             <Pic1/>
                         </Col>
                     </Row>
