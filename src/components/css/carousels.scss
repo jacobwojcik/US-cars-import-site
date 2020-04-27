@@ -4,6 +4,15 @@
     
     
 }
+.karuzelamob{
+    background-color: rgb(0, 0, 0);
+    //padding:2rem;
+    display:none;
+    
+}
+.carousel{
+
+}
 .carousel-item{
     height:auto;
     max-height: 90vh;
@@ -13,4 +22,22 @@
         
     }
     
+}
+@media (max-width:500px){
+    .carousel-item{
+        height:auto;
+        max-height: 90vh;
+    }
+    .karuzela{
+        background-color: rgb(0, 0, 0);
+        //padding:2rem;
+        display:none;
+        
+    }
+    .karuzelamob{
+        background-color: rgb(0, 0, 0);
+        //padding:2rem;
+        display:block;
+        
+    }
 }

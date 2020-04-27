@@ -27,6 +27,7 @@ module.exports = {
         icon: `src/images/uscars.jpg`, // This path is relative to the root of the site.
       },
     },
+    
     `gatsby-plugin-sass`,
    
   ],

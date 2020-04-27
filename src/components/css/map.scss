@@ -12,4 +12,20 @@ h3{
 }
 .col{
     text-align: center;
+    padding:15px;
+    
+}
+#col2{
+    padding-top: 50px;
+    text-align: center;
+}
+.mapp{
+    width:700px;
+    height:500px;
+}
+@media (max-width:500px){
+    .mapp{
+        width:100px;
+        height:100px;
+    }
 }
