@@ -1,7 +1,7 @@
 import React from 'react'
 import {Container,Row,Col} from 'react-bootstrap'
 import "./css/header.scss"
-import Pic1 from './gatimages/pic1'
+
 
 
 class AboutusCom  extends React.Component{
@@ -29,7 +29,7 @@ class AboutusCom  extends React.Component{
                         </p>
                         </Col>
                         <Col sm={6}>
-                            <Pic1/>
+                            
                         </Col>
                     </Row>
                 </Container>
