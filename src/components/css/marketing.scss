@@ -34,6 +34,7 @@ h1{
 
 .card{
     background-color: rgb(92, 99, 92);
+    text-align: center;
 }
 .card-body{
     background-color:  rgb(92, 99, 92);
@@ -48,7 +49,7 @@ h1{
 
 @media (max-width:500px){
     .offerCol{
-        margin-left: 23px;
+        margin-left: 20px;
         
     }
 }

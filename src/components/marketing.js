@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import {Container,Row,Col, ProgressBar} from 'react-bootstrap'
 import "./css/marketing.scss"
-import 'animate.css/animate.css'
+
 const Marketing = () => (
   <section className="sec2">
       <div>
