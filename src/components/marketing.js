@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import {Container,Row,Col} from 'react-bootstrap'
+import {Container,Row,Col, ProgressBar} from 'react-bootstrap'
 import "./css/marketing.scss"
 import 'animate.css/animate.css'
 const Marketing = () => (
@@ -10,16 +10,18 @@ const Marketing = () => (
       <Container>
                     <Row>
                        <Col>
-                       <h1 className="animated infinite swing  ">9393 </h1>
-                       <h3>zrealizowanych zamowien</h3>
+                       <ProgressBar striped variant="success" animated now={100}label={`100%`} />
+                       <h3>Zadowolonych klientow</h3>
                        </Col>
-                       <Col>
-                       <h1 className="animated infinite swing  ">100 % </h1>
-                       <h3>zadowolonych klientow</h3>
+                       </Row>
+                       <Row><Col>
+                       <ProgressBar striped variant="info" animated now={100} label={`7245`} />
+                       <h3>Zrealizowanych zamowien</h3>
                        </Col>
-                       <Col>
-                       <h1 className="animated infinite swing  ">15 lat</h1>
-                       <h3>w branzy</h3>
+                       </Row>
+                       <Row><Col>
+                       <ProgressBar striped variant="danger" animated now={100} label={`15`} />
+                       <h3>Lat w branzy</h3>
                        </Col>
                     </Row>
                 </Container>

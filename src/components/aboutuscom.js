@@ -6,6 +6,7 @@ import Pic1 from './gatimages/pic1'
 
 class AboutusCom  extends React.Component{
     
+    
     render(){
     return (
         <section className="aboutuscom">
