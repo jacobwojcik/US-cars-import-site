@@ -14,22 +14,13 @@ class AboutusCom  extends React.Component{
             <Container>
                     <Row>
                         <Col sm={6}>
-                        <h1>Kim jestesmy?</h1>
+                        <h1>Kilka slow o nas</h1>
                         <p>
-                        Specjalizujemy się poszukiwaniu i zakupie samochodow
-                         w Stanach Zjednoczonych i Kanadzie,
-                          oraz całą procedurą logistyczną.
-                           Posiadamy własny transport, mechaników 
-                           oraz firmę detailingową. Każde auto przed
-                            zakupem jest przez nas weryfikowane. Cieszymy sie pelnym
-                            zaaufaniem i gronem zadowolonych klientow. W branzy jestesmy obecni od wielu lat
-                            , wiemy co to profesjonalizm i potrafimy spenlic oczekiwania klienta.
-                            Skontaktuj sie z nami, a samochod twoich marzen trafi do ciebie w najblizszym czasie!
-                            
+                        Firma <strong>Us Cars </strong>powstała , żeby służyć Państwu swoim profesjonalizmem i doświadczeniem w wyborze pewnych aut używanych. Tak jak Państwo, jesteśmy zdania, że rzetelnie sprawdzone auto używane może służyć niezawodnie i cieszyć nowego właściciela.
                         </p>
                         </Col>
                         <Col sm={6}>
-                            
+                            <p>Klienci, którzy zdecydują się skorzystać z naszych usług, mogą liczyć na szybką i fachową pomoc na każdym etapie importu auta z USA bądź Kanady. Nie musisz się martwić o formalności – bierzemy to na siebie, podobnie jak sprawdzenie czy dom aukcyjny, od którego odkupimy Twoje auto rzeczywiście jest partnerem godnym zaufania. Zajmiemy się także transportem zza wielkiej wody zakupionego przez Ciebie auta, który trafi do Ciebie razem z kluczykami do stacyjki wkrótce po tym, jak przekroczy polską granicę.</p>
                         </Col>
                     </Row>
                 </Container>

@@ -17,7 +17,7 @@
 
 //offers
 .sec3{
-    background-color: rgb(29, 31, 29);
+    background-color: rgb(41, 41, 44);
     padding: 30px;
     height: auto;
 }
@@ -33,14 +33,17 @@ h1{
 }
 
 .card{
-    background-color: rgb(92, 99, 92);
+    background-color: rgb(52, 54, 52);
     text-align: center;
+    border: 2px solid white;
+    
 }
 .card-body{
-    background-color:  rgb(92, 99, 92);
+    background-color:  rgb(52, 54, 52);
 }
 .card-title{
     font-weight: bold;
+    color: white;
 }
 .offerCol{
     padding: 10px;

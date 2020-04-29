@@ -1,11 +1,15 @@
 .contactSec{
-    background-color: rgb(68, 61, 61);
+    background-color: rgb(5, 5, 5);
+    height: 100%;
+    padding:70px;
+   
 }
 .conP{
-    font-weight:bold;
+    font-weight: lighter;
     font-size: 20px;
-    color: rgb(19, 18, 18);
+    color: rgb(255, 253, 253);
     text-decoration: none;
+
 }
 a:hover{
     text-decoration: none;
@@ -20,4 +24,17 @@ a:hover{
     padding-bottom: 250px;
     background-color: rgb(15, 15, 15);
     height: auto;
+}
+.colcon{
+    text-align: center;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+@media (max-width:500px){
+    .colcon{
+        text-align: center;
+        padding:10px;
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+    }
 }

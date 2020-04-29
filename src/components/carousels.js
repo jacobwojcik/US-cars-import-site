@@ -1,5 +1,9 @@
 import React from 'react'
 import {Carousel} from 'react-bootstrap'
+import Image from "react-bootstrap"
+import Car1 from "../images/carc.jpg"
+import Car2 from "../images/cara.jpg"
+import Car3 from "../images/carb.jpg"
 import Image1 from "./gatimages/image1"
 import Image2 from "./gatimages/image2"
 import Image3 from "./gatimages/image3"
@@ -10,26 +14,26 @@ export default function Carousels() {
       <section className="karuzela">
         <Carousel>
         <Carousel.Item>
-        <Image1/>
+       <img src={Car1} /> 
           <Carousel.Caption>
-            <h3>Us Cars</h3>
-            <p>Najlepsze samochody wprost z USA</p>
+            <h2 className="carou">Us Cars</h2>
+            <h3 className="carou">Najlepsze samochody wprost z USA</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
         
-        <Image2/>
+        <img src={Car2} /> 
           <Carousel.Caption>
-            <h3>Us Cars</h3>
-            <p>Najszybszy i najpewniejszy import</p>
+            <h2 className="carou">Us Cars</h2>
+            <h3 className="carou">Najszybszy i najpewniejszy import</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
         
-        <Image3/>
+        <img src={Car3} /> 
           <Carousel.Caption>
-            <h3>Us Cars</h3>
-            <p>Sprawdz nas juz teraz!</p>
+            <h2 className="carou">Us Cars</h2>
+            <h3 className="carou">Sprawdz nas juz teraz!</h3>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
