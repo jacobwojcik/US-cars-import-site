@@ -27,6 +27,9 @@ const Header = ({ siteTitle }) => (
     <Nav.Link  ><Link className="navLink" to="/completions">Realizacje</Link></Nav.Link>
   </Nav.Item>
   <Nav.Item className="navbut">
+    <Nav.Link ><Link className="navLink" to="/calc">Koszta importu</Link></Nav.Link>
+  </Nav.Item>
+  <Nav.Item className="navbut">
     <Nav.Link ><Link className="navLink" to="/contact">Kontakt</Link></Nav.Link>
   </Nav.Item>
 

@@ -24,6 +24,9 @@ const Headermob = () => (
     <Nav.Link  ><Link className="navLink" to="/completions">Realizacje</Link></Nav.Link>
   </Nav.Item>
   <Nav.Item className="navbut">
+    <Nav.Link ><Link className="navLink" to="/calc">Koszt importu</Link></Nav.Link>
+  </Nav.Item>
+  <Nav.Item className="navbut">
     <Nav.Link ><Link className="navLink" to="/contact">Kontakt</Link></Nav.Link>
   </Nav.Item>
 
