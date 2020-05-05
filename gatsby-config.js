@@ -27,7 +27,12 @@ module.exports = {
         icon: `src/images/uscars.jpg`, // This path is relative to the root of the site.
       },
     },
-    
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        // Add any options here
+      },
+    },
     `gatsby-plugin-sass`,
    
   ],
