@@ -24,7 +24,7 @@ const Offers = () => (
                 <p>- 26 tys. km. przebiegu</p>
                 <p>- Auto odpala i jeździ</p>
                 </Card.Text>
-                <a href="https://www.facebook.com/USAUScars/posts/233717334645459" target="_blank"><Button variant="light">Sprawdz wiecej</Button></a>
+                <a href="https://www.facebook.com/USAUScars/posts/233717334645459" target="_blank"><Button variant="light">Sprawdź więcej!</Button></a>
               </Card.Body>
             </Card>
           </Col>
@@ -39,7 +39,7 @@ const Offers = () => (
                 <p>- 15 tys. km. przebiegu</p>
                 <p>- Auto odpala i jeździ</p>
                 </Card.Text>
-                <a href="https://www.facebook.com/USAUScars/posts/232901921393667" target="_blank"><Button variant="light">Sprawdz wiecej</Button></a>
+                <a href="https://www.facebook.com/USAUScars/posts/232901921393667" target="_blank"><Button variant="light">Sprawdź więcej!</Button></a>
               </Card.Body>
             </Card>
           </Col>
@@ -54,7 +54,7 @@ const Offers = () => (
                 <p>- 39 tys. km. przebiegu</p>
                 <p>- Auto odpala i jeździ</p>
                 </Card.Text>
-                <a href="https://www.facebook.com/USAUScars/posts/240096900674169" target="_blank"><Button variant="light">Sprawdz wiecej</Button></a>
+                <a href="https://www.facebook.com/USAUScars/posts/240096900674169" target="_blank"><Button variant="light">Sprawdź więcej!</Button></a>
               </Card.Body>
             </Card>
           </Col>

@@ -22,7 +22,7 @@ const Map = () => (
         <Col sm={4} id="col2">
         <h2>Znajdziesz nas tutaj!</h2>
         <h3>Lokalizacja:</h3>
-        <p>ul.Szkotnik 2B, 33-100 Tarnow</p>
+        <p>ul.Szkotnik 2B, 33-100 Tarnów</p>
         <h3>Godziny otwarcia:</h3>
         <p>Poniedzialek-Sobota: 8:00-18:00</p>
         </Col>

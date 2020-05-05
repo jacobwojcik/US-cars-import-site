@@ -9,8 +9,8 @@ import Logo from "./gatimages/logo"
 
 const Headermob = () => (
   <header>
-    <Navbar bg="dark" expand="sm">
-  <Navbar.Brand ><Link className="navLink" to="/">Strona glowna</Link></Navbar.Brand>
+    <Navbar bg="dark" expand="md">
+  <Navbar.Brand ><Link className="navLink" to="/">Strona główna</Link></Navbar.Brand>
   <Navbar.Toggle   aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
@@ -18,13 +18,13 @@ const Headermob = () => (
     <Nav.Link ><Link className="navLink" to="/about">O nas</Link></Nav.Link>
   </Nav.Item>
   <Nav.Item className="navbut">
-    <Nav.Link ><Link className="navLink" to="/offer">Oferta</Link></Nav.Link>
+    <Nav.Link ><Link className="navLink" to="/offer">Procedura</Link></Nav.Link>
   </Nav.Item >
   <Nav.Item className="navbut">
     <Nav.Link  ><Link className="navLink" to="/completions">Realizacje</Link></Nav.Link>
   </Nav.Item>
   <Nav.Item className="navbut">
-    <Nav.Link ><Link className="navLink" to="/calc">Koszt importu</Link></Nav.Link>
+    <Nav.Link ><Link className="navLink" to="/calc">Kalkulator kosztów</Link></Nav.Link>
   </Nav.Item>
   <Nav.Item className="navbut">
     <Nav.Link ><Link className="navLink" to="/contact">Kontakt</Link></Nav.Link>

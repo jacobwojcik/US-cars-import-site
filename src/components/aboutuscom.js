@@ -34,7 +34,7 @@ class AboutusCom  extends React.Component{
                         </Row>
                         <Row>
                        
-                         <Col sm={6} className="aboutcol">
+                         <Col sm={6} className="aboutcol3">
                             <h1>Dlaczego my?</h1>
                         <p>
                         prowadzenie samochodu z Ameryki to obecnie rozwiązanie bardzo popularne, za stosunkowo

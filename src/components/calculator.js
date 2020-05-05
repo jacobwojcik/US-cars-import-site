@@ -107,7 +107,7 @@ export default class Calc extends React.Component {
         }
        
 
-        let n5= n1+n2+59+n4;
+        let n5= n1+n2+59;
         this.setState({auction: n1});
         this.setState({commission: n2});
         this.setState({embark: 59});
@@ -133,8 +133,8 @@ export default class Calc extends React.Component {
     <Col sm={3}></Col>
   </Form.Group>
   <Row className="calcBut">
-    <Col >
-    <Button variant="success" onClick={this.handleSubmit}>Potwierdz</Button>
+    <Col  >
+    <Button variant="success" onClick={this.handleSubmit}>Potwierdź</Button>
     </Col>
   
   </Row>
@@ -154,7 +154,7 @@ export default class Calc extends React.Component {
   <Row>
   <Col sm={2}></Col>
    <Col sm={4} className="calcCol">
-    <p>Oplata za aukcje</p>
+    <p>Opłata za aukcje</p>
     </Col>
     <Col sm={4} className="calcCol">
     <h1 className="test2">{this.state.commission}$</h1>
@@ -165,7 +165,7 @@ export default class Calc extends React.Component {
   <Row>
   <Col sm={2}></Col>
    <Col sm={4} className="calcCol">
-    <p>Zaladunek</p>
+    <p>Załadunek</p>
     </Col>
     <Col sm={4} className="calcCol">
     <h1 className="test2">{this.state.embark}$</h1>
@@ -176,10 +176,10 @@ export default class Calc extends React.Component {
   <Row>
   <Col sm={2}></Col>
    <Col sm={4} className="calcCol">
-    <p>Clo</p>
+    <p>Cło</p>
     </Col>
     <Col sm={4} className="calcCol">
-    <h1 className="test2">{this.state.custom}$</h1>
+    <h1 className="test2">{this.state.custom}PLN</h1>
     </Col>
     <Col sm={2}></Col>
     </Row>
@@ -190,10 +190,10 @@ export default class Calc extends React.Component {
   <Row >
   <Col sm={2} ></Col>
    <Col sm={4} className="calcCol2">
-    <p>Koszt calkowity</p>
+    <p>Koszt całkowity</p>
     </Col>
     <Col sm={4} className="calcCol2">
-    <h1 className="test2">{this.state.sum}$</h1>
+    <h1 className="test2">{this.state.sum}$ + {this.state.custom}PLN</h1>
     </Col>
     <Col sm={2}></Col>
     </Row>
