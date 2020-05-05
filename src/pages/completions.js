@@ -15,6 +15,7 @@ const Completions = ({ data }) => (
   <Layout>
     <SEO title="Realizacje" />
     <Container className="lbox">
+      <h1>Nasze realizacje</h1>
     <Lightbox images={data.allFile.edges} />
     </Container>
    

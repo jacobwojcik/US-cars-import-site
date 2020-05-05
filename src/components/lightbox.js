@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
+import {Button} from "react-bootstrap"
 
 class Lightbox extends Component {
   state = {
@@ -76,13 +77,14 @@ class Lightbox extends Component {
           <LightboxContent>
             <Img sizes={images[selectedImage].node.childImageSharp.sizes} />
             <Controls>
-              <Button onClick={this.closeModal}>Close</Button>
+              <Button variant="dark" onClick={this.closeModal}>X</Button>
               <LeftRight>
-                <Button onClick={this.goBack} disabled={selectedImage === 0}>
-                  Previous
+                <Button variant="dark" onClick={this.goBack} disabled={selectedImage === 0}>
+                ⬅
+
                 </Button>
-                <Button onClick={this.goForward} disabled={selectedImage === images.length - 1}>
-                  Next
+                <Button  variant="dark" onClick={this.goForward} disabled={selectedImage === images.length - 1}>
+                ➡
                 </Button>
               </LeftRight>
             </Controls>
@@ -108,6 +110,7 @@ const StyledImg = styled(Img)`
 
 const Gallery = styled.div`
   display: grid;
+  
   grid-template-columns: 1fr;
   @media (min-width: 700px) {
     grid-template-columns: 1fr 1fr;
@@ -128,9 +131,10 @@ const Gallery = styled.div`
 
 const GalleryItem = styled.div`
   position: relative;
+  padding:5px;
 `
 
-const Button = styled.button``
+
 
 const LightboxModal = styled.div`
   position: fixed;
