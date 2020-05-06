@@ -30,7 +30,7 @@ export default function Footer() {
                        </Col>
                        
                    </Row>
-                   <p className="signature">© 2020 Copyright:<a className="sign" href="www.jacobw.pl" target="_blank">JW</a></p>
+                   <p className="signature">© 2020 Copyright:<a className="sign" href="http://www.jacobw.pl" target="_blank">JW</a></p>
                </Container>
 
         </footer>

@@ -8,32 +8,33 @@ import Image1 from "./gatimages/image1"
 import Image2 from "./gatimages/image2"
 import Image3 from "./gatimages/image3"
 import "./css/carousels.scss"
+import 'animate.css/animate.css'
 
 export default function Carousels() {
     return (
       <section className="karuzela">
         <Carousel>
         <Carousel.Item>
-       <img src={Car1} /> 
+       <img src={Car1} />  
           <Carousel.Caption>
-            <h2 className="carou">Us Cars</h2>
-            <h3 className="carou">Najlepsze samochody wprost z USA</h3>
+            <h2 className="carou animated zoomIn slow">Us Cars Import</h2>
+            <h3 className="carou animated zoomIn slow">Najlepsze samochody wprost z USA</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
         
         <img src={Car2} /> 
           <Carousel.Caption>
-            <h2 className="carou">Us Cars</h2>
-            <h3 className="carou">Najszybszy i najpewniejszy import</h3>
+            <h2 className="carou animated zoomIn slow">Us Cars Import</h2>
+            <h3 className="carou animated zoomIn slow">Najszybszy i najpewniejszy import</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
         
         <img src={Car3} /> 
           <Carousel.Caption>
-            <h2 className="carou">Us Cars</h2>
-            <h3 className="carou">Sprawdz nas juz teraz!</h3>
+            <h2 className="carou animated zoomIn slow">Us Cars Import</h2>
+            <h3 className="carou animated zoomIn slow">Sprawdz nas juz teraz!</h3>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
