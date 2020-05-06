@@ -38,7 +38,7 @@ const Contact = () => (
           <Col sm={6} className="colcon">
           <FontAwesomeIcon icon={faFacebook}  size = '5x' className="iconCon" />
           <h3>Facebook</h3>
-          <a href="https://www.facebook.com/USAUScars" target="_blank"><p class="conP">Us cars</p></a>
+          <a href="https://www.facebook.com/USAUScars" target="_blank"><p class="conP">Us Cars Import</p></a>
           </Col>
           <Col sm={6} className="colcon">
           <FontAwesomeIcon icon={faPhone}  size = '5x' className="iconCon" />

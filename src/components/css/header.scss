@@ -44,12 +44,7 @@ header{
     color: white;
 }
 
-.aboutuscom
-{
-    background-color: rgb(20, 20, 20);
-    height: auto;
-    padding: 50px;
-}.aicon{
+.aicon{
     fill:white;
     width:90px;
     height:90px;
@@ -61,6 +56,14 @@ header{
 }
 
 //aboutuscom
+.aboutuscom
+{
+    background-color: rgb(20, 20, 20);
+    height: auto;
+    padding: 50px;
+}
+
+
 .aboutcol{
     padding:5px;
     color: black;;
@@ -86,7 +89,24 @@ header{
    
    
 }
-
+.aboutusmob{
+    display:none;
+}
 .abrow{
     padding:10px;
+}
+.aboutColMob{
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media (max-width:1000px){
+   .aboutuscom{
+       display:none;
+   }
+   .aboutusmob{
+       display:block;
+       padding:10px;
+   }
 }

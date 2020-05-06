@@ -6,19 +6,17 @@ import "./css/header.scss"
 
 
 
-class AboutusCom  extends React.Component{
+class AboutusMob  extends React.Component{
     
     
     render(){
     return (
-        <section className="aboutuscom">
+        <section className="aboutusmob">
             <div>
             <Container>
-                    <Row className="abrow">
-                    <Col onMouseDownCapture={6} className="aboutcol2">
-                        <FontAwesomeIcon icon={faUserTie}  size = '10x' className="iconCon" />   
-                            </Col>
-                        <Col md={6} className="aboutcol">
+                    <Row >
+                    
+                        <Col md={6} className="aboutColMob">
                         <h1>Kilka slow o nas</h1>
                         <p>
                         Do maszej specjalizacji należy import samochodów z USA – 
@@ -30,11 +28,14 @@ class AboutusCom  extends React.Component{
                         brać udział w aukcjach samochodowych dostępnych tylko dla tego typu kontrahentów.
                         </p>
                         </Col>
+                        <Col md={6} className="aboutColMob">
+                        <FontAwesomeIcon icon={faUserTie}  size = '10x' className="iconCon" />   
+                            </Col>
                         
                         </Row>
                         <Row>
                        
-                         <Col md={6} className="aboutcol3">
+                         <Col md={6} className="aboutColMob">
                             <h1>Dlaczego my?</h1>
                         <p>
                         prowadzenie samochodu z Ameryki to obecnie rozwiązanie bardzo popularne, za stosunkowo
@@ -46,7 +47,7 @@ class AboutusCom  extends React.Component{
                         niezależna od wysokości kwoty zakupu sprowadzanego auta z USA.
                             </p>                       
                          </Col>
-                         <Col md={6} className="aboutcol2">
+                         <Col md={6} className="aboutColMob">
                         <FontAwesomeIcon icon={faChartLine}  size = '10x' className="iconCon" />                   
                          </Col>
                     </Row>
@@ -57,4 +58,4 @@ class AboutusCom  extends React.Component{
     );
 }
 }
-export default AboutusCom
+export default AboutusMob
