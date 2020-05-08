@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 const Image2mob = () => {
     const data = useStaticQuery(graphql`
     query getlImage {
-        image:file(relativePath: {eq: "car2mob.jpg"}) {
+        image:file(relativePath: {eq: "cartest2.jpg"}) {
           id
           childImageSharp {
             fixed(width:500) {

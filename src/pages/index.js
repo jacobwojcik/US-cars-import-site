@@ -20,7 +20,7 @@ import "@fortawesome/react-fontawesome"
 const IndexPage = () => (
   <Layout>
     
-    <SEO title="Strona glowna" />
+    <SEO title="Strona główna" />
 
     <Carousels/>
     <Carouselsmob/>

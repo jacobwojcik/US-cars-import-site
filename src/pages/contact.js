@@ -5,7 +5,6 @@ import { faPhone,faMapMarkedAlt,faEnvelope } from '@fortawesome/free-solid-svg-i
 import {Container,Row,Col} from 'react-bootstrap'
 import Layoutcon from "../components/layoutcon"
 import SEO from "../components/seo"
-import Back from "../components/gatimages/backk"
 import "../components/css/contact.scss"
 import "@fortawesome/fontawesome-svg-core"
 import "@fortawesome/free-brands-svg-icons"

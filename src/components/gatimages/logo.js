@@ -5,10 +5,10 @@ import Img from "gatsby-image"
 const Logo = () => {
     const data = useStaticQuery(graphql`
     query gettImage {
-        image:file(relativePath: {eq: "uscars.jpg"}) {
+        image:file(relativePath: {eq: "logo2.png"}) {
           id
           childImageSharp {
-            fixed(width:40) {
+            fixed(width:180) {
               ...GatsbyImageSharpFixed
             }
             fluid {

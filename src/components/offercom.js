@@ -20,12 +20,12 @@ Z USA LUB KANADY?</h1>
                     <Col md={4}>
                     <FontAwesomeIcon icon={faCalculator}  size = '4x' className="iconOffer" />
                         <h2>2.	KALKULACJA KOSZTÓW</h2>
-                        <p>Dokonamy bezpłatnej kalkulacji kosztów samochodu wraz z uwzględnieniem całej logistyki oraz wprost do Ciebie.</p>
+                        <p>Dokonamy  kalkulacji kosztów samochodu wraz z uwzględnieniem całej logistyki oraz dostarczenia wprost do Ciebie.</p>
                     </Col>
                     <Col md={4}>
                     <FontAwesomeIcon icon={faClipboardList}  size = '4x' className="iconOffer" />
                         <h2>3.	ZAMÓWIENIE</h2>
-                        <p>Posiadasz już wiedzę, jak przebiega import aut z USA lub Kanady oraz kosztach samochodu z dostawą. Podpisujemy umowę, na podstawie której będziemy mogli zrealizować zamówienie. W umowie określone są etapy płatności oraz forma akceptacji wybranego przez Ciebie samochodu, jeszcze przed zakupem.</p>
+                        <p>Podpisanie umowy, na podstawie której będziemy mogli zrealizować zamówienie. W umowie określone są etapy płatności oraz forma akceptacji wybranego przez Ciebie samochodu, jeszcze przed zakupem.</p>
                     </Col>
                 </Row>
                 <Row>
@@ -33,19 +33,19 @@ Z USA LUB KANADY?</h1>
                 <FontAwesomeIcon icon={faCheckSquare}  size = '4x' className="iconOffer" />
 
                         <h2>4.	REALIZACJA ZAMÓWIENIA</h2>
-                        <p> Na tym etapie przedstawiamy oferty samochodów. Spełniane są określone wspólnie kryteria, przede wszystkim nie kupujemy samochodu, którego nie zaakceptujesz.</p>
+                        <p>Zakupimy samochód idealny dla ciebie na jednej z oficjalnych aukcji IAAI, Copart, Manheim. Zostanie on wylicytowany w najkorzystniejszej  cenie. </p>
                     </Col>
                     <Col md={4}>
                     <FontAwesomeIcon icon={faAngleDoubleRight}  size = '4x' className="iconOffer" />
 
                         <h2>5.	ZREALIZOWANY ZAKUP</h2>
-                        <p>Po zakupie zaakceptowanego samochodu, przystępujemy do realizacji formalności oraz  logistyki związanej z dostawą samochodu do portu, z którego będzie wysłany do Polski,frachtem morskim a następnie odprawą celną, formalnościami i dostawą do naszej siedziby.</p>
+                        <p>Po zakupie zaakceptowanego samochodu, przystępujemy do realizacji formalności oraz  logistyki związanej z dostawą samochodu do portu, z którego będzie wysłany do Polski, a następnie odprawą celną, formalnościami i dostawą do naszej siedziby.</p>
                     </Col>
                     <Col md={4}>
                     <FontAwesomeIcon icon={faCarAlt}  size = '4x' className="iconOffer" />
 
                         <h2>6.	PRZYGOTOWANIE AUTA DO ODBIORU</h2>
-                        <p>Przed odbiorem auta, wykonujemy bezpłatny przegląd w naszym serwisie. Na Twoje życzenie możemy dokonać takich rzeczy, jak korekta oświetlenia oraz montaż dodatkowych akcesoriów.</p>
+                        <p>Dokonamy wszystkich formalności celno-skarbowych, klient odbiera auto w pełni opłacone ze wszystkimi dokumentami, książkami serwisowymi-pozostaje tylko rejestracja.</p>
                     </Col>
                 </Row>
             </Container>
