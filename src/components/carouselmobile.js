@@ -12,7 +12,7 @@ export default function Carouselsmob() {
         <Carousel.Item>
         <Image1mob/>
           <Carousel.Caption>
-            <h3 className="animated zoomIn slow">Us Cars Import</h3>
+            <h3 className="animated zoomIn slow">UScars Import</h3>
             <p className="animated zoomIn slow">Najlepsze samochody wprost z USA</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -20,7 +20,7 @@ export default function Carouselsmob() {
         
         <Image2mob/>
           <Carousel.Caption>
-            <h3 className="animated zoomIn slow">Us Cars Import</h3>
+            <h3 className="animated zoomIn slow">UScars Import</h3>
             <p className="animated zoomIn slow">Najszybszy i najpewniejszy import</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -28,7 +28,7 @@ export default function Carouselsmob() {
         
         <Image3mob/>
           <Carousel.Caption>
-            <h3 className="animated zoomIn slow">Us Cars Import</h3>
+            <h3 className="animated zoomIn slow">UScars Import</h3>
             <p className="animated zoomIn slow">Sprawdz nas juz teraz!</p>
           </Carousel.Caption>
         </Carousel.Item>

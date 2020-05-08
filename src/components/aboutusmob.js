@@ -17,7 +17,7 @@ class AboutusMob  extends React.Component{
                     <Row >
                     
                         <Col md={6} className="aboutColMob">
-                        <h1>Kilka slow o nas</h1>
+                        <h1>Kilka słów o nas</h1>
                         <p>
                         Do maszej specjalizacji należy import samochodów z USA – 
                         uszkodzonych, bezwypadkowych, zabytkowych oraz nowych. Pośredniczymy w zakupie pojazdów

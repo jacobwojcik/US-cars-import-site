@@ -19,9 +19,9 @@ class AboutusCom  extends React.Component{
                         <FontAwesomeIcon icon={faUserTie}  size = '10x' className="iconCon" />   
                             </Col>
                         <Col md={6} className="aboutcol">
-                        <h1>Kilka slow o nas</h1>
+                        <h1>Kilka słów o nas</h1>
                         <p>
-                        Do maszej specjalizacji należy import samochodów z USA – 
+                        Do naszej specjalizacji należy import samochodów z USA – 
                         uszkodzonych, bezwypadkowych, zabytkowych oraz nowych. Pośredniczymy w zakupie pojazdów
                          osobowych na największych aukcjach w Stanach Zjednoczonych (IAAI, Copart, Manheim).
                           Posiadamy niezbędne doświadczenie dzięki któremu zapewniamy kompleksowość usług oraz
@@ -37,7 +37,7 @@ class AboutusCom  extends React.Component{
                          <Col md={6} className="aboutcol3">
                             <h1>Dlaczego my?</h1>
                         <p>
-                        prowadzenie samochodu z Ameryki to obecnie rozwiązanie bardzo popularne, za stosunkowo
+                        Sprowadzenie samochodu z Ameryki to obecnie rozwiązanie bardzo popularne, za stosunkowo
                          niewielką kwotę można bowiem pozyskać niemalże dowolny pojazd w bardzo atrakcyjnnej
                           cenie! Nasza firma oferuje bardzo konkurencyjne stawki które korzystnie wyróżniają się
                            także na tle innych firm pośredniczących w kupnie samochodów na akcjach w Stanach.

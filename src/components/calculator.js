@@ -26,7 +26,7 @@ export default class Calc extends React.Component {
       handleSubmit(event) {
         let n1= Number(this.state.value);
         let n2= Number(this.state.value);
-        let n4=Math.ceil((Number(this.state.value)/4*0.29*4.5)+2000);
+        let n4=Math.ceil(Number(this.state.value)*0.1);
         
         
         if(Number(this.state.value)<1000){
@@ -96,18 +96,36 @@ export default class Calc extends React.Component {
 
 
 
-        if(Number(this.state.value)<5000 ){
-            n2=50;
+        if(Number(this.state.value)<100 ){
+            n2=0;
         }
-        else if(Number(this.state.value)>=500 && Number(this.state.value)<20000 ){
-            n2=100;
+        else if(Number(this.state.value)>=100 && Number(this.state.value)<500 ){
+            n2=39;
+        }
+        else if(Number(this.state.value)>=500 && Number(this.state.value)<1000 ){
+          n2=49;
+        }
+        else if(Number(this.state.value)>=1000 && Number(this.state.value)<1500 ){
+          n2=69;
+        }
+        else if(Number(this.state.value)>=1500 && Number(this.state.value)<2000 ){
+          n2=79;
+        }
+        else if(Number(this.state.value)>=2000 && Number(this.state.value)<4000 ){
+          n2=89;
+        }
+        else if(Number(this.state.value)>=4000 && Number(this.state.value)<6000 ){
+          n2=99;
+        }
+        else if(Number(this.state.value)>=6000 && Number(this.state.value)<8000 ){
+          n2=119;
         }
         else {
-            n2=250;
+          n2=129;
         }
        
 
-        let n5= n1+n2+59;
+        let n5= n1+n2+59+n4;
         this.setState({auction: n1});
         this.setState({commission: n2});
         this.setState({embark: 59});
@@ -120,7 +138,7 @@ export default class Calc extends React.Component {
     return (
         <section className="calculator">
             <Form>
-                <h1>Kalkulator prowizji</h1>
+                <h1>Kalkulator kosztów</h1>
   <Form.Group as={Row} controlId="formHorizontal">
     <Col sm={2}></Col>
     <Form.Label column sm={4}>
@@ -179,7 +197,7 @@ export default class Calc extends React.Component {
     <p>Cło</p>
     </Col>
     <Col sm={4} className="calcCol">
-    <h1 className="test2">{this.state.custom}PLN</h1>
+    <h1 className="test2">{this.state.custom}$</h1>
     </Col>
     <Col sm={2}></Col>
     </Row>
@@ -193,7 +211,7 @@ export default class Calc extends React.Component {
     <p>Koszt całkowity</p>
     </Col>
     <Col sm={4} className="calcCol2">
-    <h1 className="test2">{this.state.sum}$ + {this.state.custom}PLN</h1>
+    <h1 className="test2">{this.state.sum}$</h1>
     </Col>
     <Col sm={2}></Col>
     </Row>

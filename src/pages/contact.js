@@ -38,7 +38,7 @@ const Contact = () => (
           <Col sm={6} className="colcon">
           <FontAwesomeIcon icon={faFacebook}  size = '5x' className="iconCon" />
           <h3>Facebook</h3>
-          <a href="https://www.facebook.com/USAUScars" target="_blank"><p class="conP">Us Cars Import</p></a>
+          <a href="https://www.facebook.com/USAUScars" target="_blank"><p class="conP">UScars</p></a>
           </Col>
           <Col sm={6} className="colcon">
           <FontAwesomeIcon icon={faPhone}  size = '5x' className="iconCon" />
@@ -52,7 +52,7 @@ const Contact = () => (
           <FontAwesomeIcon icon={faMapMarkedAlt}  size = '5x' className="iconCon" />
           <h3>Lokalizacja</h3>
           <p class="conP">ul.Szkotnik 2B</p>
-          <p class="conP">33-100 Tarnow</p>
+          <p class="conP">33-100 Tarnów</p>
           </Col>
           <Col sm={6} className="colcon">
           <FontAwesomeIcon icon={faEnvelope}  size = '5x' className="iconCon" />
