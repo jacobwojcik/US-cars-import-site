@@ -40,11 +40,17 @@ p{
 
     padding:1px;
 }
+
 @media (max-width:800px){
 .fp{
     font-size: 14px;;
 }
 .fh{
     font-size: 18px;;
+}
+.fbicon{
+    fill:white;
+    width:35px;
+    height:35px;
 }
 }

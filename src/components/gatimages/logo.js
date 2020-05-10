@@ -8,7 +8,7 @@ const Logo = () => {
         image:file(relativePath: {eq: "logo2.png"}) {
           id
           childImageSharp {
-            fixed(width:180) {
+            fixed(width:170) {
               ...GatsbyImageSharpFixed
             }
             fluid {
