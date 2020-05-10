@@ -1,11 +1,11 @@
 import React from 'react'
 import {Container,Row,Col} from 'react-bootstrap'
 import "./css/footer.scss"
-import Logo from "./gatimages/logo"
+import Logo2 from "./gatimages/logomob"
 
-export default function Footer() {
+export default function Footermob() {
     return (
-        <footer className="footermain">
+        <footer className="footermob">
                <Container> 
                    <Row>
                        <Col className="fcol">
@@ -15,7 +15,7 @@ export default function Footer() {
                        </Col>
                        <Col className="fcol">
                        
-                        <Logo/>
+                        <Logo2/>
                            
                        </Col>
                        <Col className="fcol"> 

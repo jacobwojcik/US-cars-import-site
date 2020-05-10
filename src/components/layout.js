@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Headermob from "./headermob"
 import Footer from "./footer"
+import Footermob from "./footermob"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -22,6 +23,7 @@ const Layout = ({ children }) => {
       <div >
         <main>{children}</main>
         <Footer/>
+        <Footermob/>
       </div>
     </>
   )
