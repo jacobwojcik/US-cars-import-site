@@ -1,5 +1,5 @@
 .contactSec{
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(252, 252, 252);
     height: 100%;
     padding:70px;
    
@@ -7,15 +7,15 @@
 .conP{
     font-weight: lighter;
     font-size: 20px;
-    color: rgb(255, 253, 253);
+    color: rgb(58, 121, 204);
     text-decoration: none;
 
 }
 a:hover{
     text-decoration: none;
 }
-.iconCon{
-    color:white;
+.iconContact{
+    color:rgb(22, 55, 161);
 }
 
 .complets{
@@ -27,26 +27,37 @@ a:hover{
 }
 .colcon{
     text-align: center;
-    border-right: 1px solid white;
-    border-left: 1px solid white;
+    border-right: 1px solid rgb(22, 55, 161);
+    border-left: 1px solid rgb(22, 55, 161);
+}
+.contactForm{
+    background-color:rgb(22, 55, 161) ;
+    padding:20px;
+}
+.conForm{
+    font-size: 10px;
+    color:white;
+}
+#formGridText{
+    height:300px;
 }
 @media (max-width:500px){
     .colcon{
         text-align: center;
         padding:10px;
-        border-right: 1px solid white;
-        border-left: 1px solid white;
+        border-right: 1px solid rgb(22, 55, 161);
+        border-left: 1px solid rgb(22, 55, 161);
     }
 
 .conP{
     font-weight: lighter;
     font-size: 18px;
-    color: rgb(255, 253, 253);
+    color: rgb(22, 55, 161);
     text-decoration: none;
 
 }
 .contactSec{
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(237, 245, 245);
     height: 100%;
     padding:20px;
    
@@ -58,12 +69,16 @@ a:hover{
 .offerC{
     padding:20px;
     text-align: center;
-    background-color: rgb(10,10,10);
+    background-color: rgb(247, 247, 247);
 }
 .iconOffer{
-    color:white;
+    color:rgb(207, 19, 19);
     padding:10px;
 }
 .htext{
+    color:rgb(0,0,200); 
     padding: 20px;
+}
+.lBlue{
+    color:rgb(101, 101, 197); 
 }

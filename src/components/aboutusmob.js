@@ -17,9 +17,9 @@ class AboutusMob  extends React.Component{
                     <Row >
                     
                         <Col md={6} className="aboutColMob">
-                        <h1>Kilka słów o nas</h1>
-                        <p>
-                        Do maszej specjalizacji należy import samochodów z USA – 
+                        <h1 className="blueP">Kilka słów o nas</h1>
+                        <p className="blueP">
+                        Do naszej specjalizacji należy import samochodów z USA – 
                         uszkodzonych, bezwypadkowych, zabytkowych oraz nowych. Pośredniczymy w zakupie pojazdów
                          osobowych na największych aukcjach w Stanach Zjednoczonych (IAAI, Copart, Manheim).
                           Posiadamy niezbędne doświadczenie dzięki któremu zapewniamy kompleksowość usług oraz
@@ -36,8 +36,8 @@ class AboutusMob  extends React.Component{
                         <Row>
                        
                          <Col md={6} className="aboutColMob">
-                            <h1>Dlaczego my?</h1>
-                        <p>
+                            <h1 className="blueP">Dlaczego my?</h1>
+                        <p className="blueP">
                         prowadzenie samochodu z Ameryki to obecnie rozwiązanie bardzo popularne, za stosunkowo
                          niewielką kwotę można bowiem pozyskać niemalże dowolny pojazd w bardzo atrakcyjnnej
                           cenie! Nasza firma oferuje bardzo konkurencyjne stawki które korzystnie wyróżniają się

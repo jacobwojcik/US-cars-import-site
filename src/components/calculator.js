@@ -138,11 +138,11 @@ export default class Calc extends React.Component {
     return (
         <section className="calculator">
             <Form>
-                <h1>Kalkulator kosztów</h1>
+                <h1 className="blueP">Kalkulator kosztów</h1>
   <Form.Group as={Row} controlId="formHorizontal">
     <Col sm={2}></Col>
     <Form.Label column sm={4}>
-      <p>Kwota ($)</p>
+      <p className="blueP">Kwota ($)</p>
     </Form.Label>
     <Col sm={3}>
       <Form.Control className="kwota" name="kwota" type="number"  placeholder="Wprowadz kwote" value={this.state.value} onChange={this.handleChange} />
@@ -152,7 +152,7 @@ export default class Calc extends React.Component {
   </Form.Group>
   <Row className="calcBut">
     <Col  >
-    <Button variant="success" onClick={this.handleSubmit}>Potwierdź</Button>
+    <Button variant="primary" onClick={this.handleSubmit}>Potwierdź</Button>
     </Col>
   
   </Row>
@@ -161,7 +161,7 @@ export default class Calc extends React.Component {
   <Row>
   <Col sm={2} ></Col>
    <Col sm={4} className="calcCol">
-    <p>Prowizja aukcyjna</p>
+    <p className="blueP">Prowizja aukcyjna</p>
     </Col>
     <Col sm={4} className="calcCol">
     <h1 className="test2">{this.state.auction}$</h1>
@@ -172,7 +172,7 @@ export default class Calc extends React.Component {
   <Row>
   <Col sm={2}></Col>
    <Col sm={4} className="calcCol">
-    <p>Opłata za aukcje</p>
+    <p className="blueP">Opłata za aukcje</p>
     </Col>
     <Col sm={4} className="calcCol">
     <h1 className="test2">{this.state.commission}$</h1>
@@ -183,7 +183,7 @@ export default class Calc extends React.Component {
   <Row>
   <Col sm={2}></Col>
    <Col sm={4} className="calcCol">
-    <p>Załadunek</p>
+    <p className="blueP">Załadunek</p>
     </Col>
     <Col sm={4} className="calcCol">
     <h1 className="test2">{this.state.embark}$</h1>
@@ -194,7 +194,7 @@ export default class Calc extends React.Component {
   <Row>
   <Col sm={2}></Col>
    <Col sm={4} className="calcCol">
-    <p>Cło</p>
+    <p className="blueP">Cło</p>
     </Col>
     <Col sm={4} className="calcCol">
     <h1 className="test2">{this.state.custom}$</h1>
@@ -208,7 +208,7 @@ export default class Calc extends React.Component {
   <Row >
   <Col sm={2} ></Col>
    <Col sm={4} className="calcCol2">
-    <p>Koszt całkowity</p>
+    <p className="blueP">Koszt całkowity</p>
     </Col>
     <Col sm={4} className="calcCol2">
     <h1 className="test2">{this.state.sum}$</h1>

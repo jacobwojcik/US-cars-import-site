@@ -1,5 +1,5 @@
 .sec2{
-    background-color: rgb(26, 26, 29); 
+    background-color: rgb(35, 46, 199);
     padding-top: 100px;
     padding-bottom: 100px;
     height: auto;
@@ -9,44 +9,52 @@
 }
 
 .progress-bar{
-    color:white;
+    color:rgb(236, 236, 236);
     font-weight: bold;
     font-size: 18px ;
+}
+.head1{
+    color:rgb(253, 253, 253);
 }
 
 
 //offers
 .sec3{
-    background-color: rgb(15, 15, 15); 
+    background-color: rgb(247, 247, 247); 
     padding: 30px;
     height: auto;
 }
-h1{
-    color:white;
+
+
+.redH{
+    color:red;
 }
-
-
 .card{
-    background-color: rgb(20,20,20);
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+        
+    background-color: white;
     text-align: center;
-    border: 2px solid white;
+    border: 2px solid rgb(78, 34, 180);
     
 }
 .card-body{
-    background-color:  rgb(20,20,20);
+    background-color:  white;
 }
 .card-title{
     font-weight: bold;
-    color: white;
+    color: red;
 }
 .offerCol{
     padding: 10px;
+   
     
 }
 
+
 @media (max-width:500px){
     .offerCol{
-        margin-left: 20px;
         
     }
 }

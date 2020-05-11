@@ -1,14 +1,10 @@
 import React from 'react'
 import {Carousel} from 'react-bootstrap'
-import Image from "react-bootstrap"
-import Car1 from "../images/carc.jpg"
-import Car2 from "../images/cara.jpg"
-import Car3 from "../images/carb.jpg"
-import Image1 from "./gatimages/image1"
-import Image2 from "./gatimages/image2"
-import Image3 from "./gatimages/image3"
+import Car1 from "../images/maincar7.jpg"
+import Car2 from "../images/maincar5.jpg"
+import Car3 from "../images/maincar1.jpg"
 import "./css/carousels.scss"
-import 'animate.css/animate.css'
+
 
 export default function Carousels() {
     return (

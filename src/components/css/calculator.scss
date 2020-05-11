@@ -1,17 +1,23 @@
 .calculator{
     padding:25px;
     text-align: center;
-    background-color: rgb(10,10,10);
+    background-color: rgb(243, 243, 243);
 }
 .calcCol{
-    border-right: 2px solid white;
-    border-left: 2px solid white;
+    border-right: 2px solid rgb(61, 31, 170);
+    border-left: 2px solid rgb(61, 31, 170);
 }
 .calcCol2{
-    border-top: 2px solid white;
+    border-top: 2px solid rgb(61, 31, 170);
     padding-top: 30px;;
 }
 .calcBut{
     padding-bottom:15px;
     
+} 
+.blueP{
+    color:rgb(36, 36, 184);
+}
+.test2{
+    color:rgb(36, 36, 184);
 }

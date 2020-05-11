@@ -1,12 +1,14 @@
 header{
     height: auto;
     padding:15px;
-    background-color:rgb(0, 0, 0);
+    background-color:rgb(35, 46, 199);
     align-items: center;
 }
-
+.navbar{
+    color: rgb(238, 238, 238);
+}
 .navLink{
-    color: white;
+    color: rgb(245, 245, 245);
     
 
 }
@@ -23,15 +25,11 @@ header{
     
 }
 .iconhead{
-   position: absolute;
-   right: 5%;
-    color: white;
+   fill:rgb(255, 255, 255);
+   width:40px;
+   height:40px;
 }
-.iconhead2{
-    position: absolute;
-    right: 1%;
-    color: white;
-}
+
 
 
 
@@ -39,16 +37,18 @@ header{
 //aboutus
 
 .sec1{
-    background-color: rgb(15, 15, 15); 
+    background-color: rgb(255, 255, 255); 
     padding: 50px;
-    color: white;
+    color: black;
 }
-
+ .heading{
+    color: rgb(35, 46, 199);
+ }
 .aicon{
-    fill:white;
+    fill:rgb(214, 21, 21);
     width:90px;
     height:90px;
-    padding:10px;
+    padding:10px; 
 }
 .sec2col{
     text-align: center;
@@ -56,9 +56,12 @@ header{
 }
 
 //aboutuscom
+.iconCon{
+    color:red;
+}
 .aboutuscom
 {
-    background-color: rgb(10,10,10);
+    background-color: rgb(245, 240, 240);
     height: auto;
     padding: 50px;
 }
@@ -66,26 +69,32 @@ header{
 
 .aboutcol{
     padding:5px;
-    color: black;;
+  
     text-align: center;
-    border-right: 2px solid white;
-    border-top: 2px solid white;
-    background-color: rgb(10,10,10);
+    border: 2px solid rgb(28, 48, 163);
+    background-color: rgb(235, 231, 231);
    
 }
 .aboutcol3{
     padding:5px;
     color: black;;
     text-align: center;
-    border-left: 2px solid white;
-    border-bottom: 2px solid white;
-    background-color: rgb(10,10,10);
+    border: 2px solid rgb(28, 48, 163);
+    
+    background-color: rgb(235, 231, 231);
+   
+}
+.aboutcol1{
+    
+    text-align: center;
+    padding-top: 100px;
+   
    
 }
 .aboutcol2{
     padding:5px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 120px;
    
    
 }
@@ -93,12 +102,13 @@ header{
     display:none;
 }
 .abrow{
-    padding:10px;
+    
 }
 .aboutColMob{
     text-align: center;
     padding: 20px;
 }
+
 
 
 @media (max-width:1000px){

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Us Cars Import`,
-    description: `Najlepszy import samochodów z Usa i Kanady`,
+    title: `USCars Import`,
+    description: `UScars Import Tarnów. Import samochodów z Usa i Kanady. Kompleksowa usługa. Sprawdź naszą ofertę! `,
     author: `JW`,
   },
   plugins: [

@@ -16,7 +16,7 @@ export default function Complets() {
         <section >
             <Container>
             <Row>
-                    <Col ><h1>Nasze realizacje</h1> </Col>
+                    <Col ><h1 className="blueP">Nasze realizacje</h1> </Col>
                     
                 </Row>
                 <Row>

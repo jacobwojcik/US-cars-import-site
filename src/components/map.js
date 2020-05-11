@@ -18,11 +18,11 @@ const Map = () => (
         position="relative"/>
         </Col>
         <Col sm={4} id="col2">
-        <h2>Znajdziesz nas tutaj!</h2>
-        <h3>Lokalizacja:</h3>
-        <p>ul.Szkotnik 2B, 33-100 Tarnów</p>
-        <h3>Godziny otwarcia:</h3>
-        <p>Poniedzialek-Sobota: 8:00-18:00</p>
+        <h2 className="redP">Znajdziesz nas tutaj!</h2>
+        <h3 className="redP">Lokalizacja:</h3>
+        <p className="redP">ul.Szkotnik 2B, 33-100 Tarnów</p>
+        <h3 className="redP">Godziny otwarcia:</h3>
+        <p className="redP">Poniedziałek-Sobota: 8:00-18:00</p>
         </Col>
         </Row>
                 </Container>
