@@ -29,7 +29,7 @@ const Contact = () => (
         </Row>
         <Row>
           <Col>
-         <h2 className="redH">Skontaktuj się z nami przez Fanpage na Facebooku lub telefonicznie</h2>
+         <h2 className="blueP">Skontaktuj się z nami przez Fanpage na Facebooku lub telefonicznie</h2>
 
           </Col>
           
@@ -37,27 +37,27 @@ const Contact = () => (
         <Row>
           <Col sm={6} className="colcon">
           <FontAwesomeIcon icon={faFacebook}  size = '5x' className="iconContact" />
-          <h3 className="blueP">Facebook</h3>
-          <a href="https://www.facebook.com/USAUScars" target="_blank"><p class="redH">UScars</p></a>
+          <h3 className="whiteP">Facebook</h3>
+          <a href="https://www.facebook.com/USAUScars" target="_blank"><p class="whiteP">UScars</p></a>
           </Col>
           <Col sm={6} className="colcon">
           <FontAwesomeIcon icon={faPhone}  size = '5x' className="iconContact" />
-          <h3 className="blueP">Telefon</h3>
-          <p class="redH">502 603 263</p>
-          <p class="redH">501 151 463</p>
+          <h3 className="whiteP">Telefon</h3>
+          <p class="whiteP">502 603 263</p>
+          <p class="whiteP">501 151 463</p>
           </Col>
         </Row>
         <Row>
           <Col sm={6} className="colcon">
           <FontAwesomeIcon icon={faMapMarkedAlt}  size = '5x' className="iconContact" />
-          <h3 className="blueP">Lokalizacja</h3>
-          <p class="redH">ul.Szkotnik 2B</p>
-          <p class="redH">33-100 Tarnów</p>
+          <h3 className="whiteP">Lokalizacja</h3>
+          <p class="whiteP">ul.Szkotnik 2B</p>
+          <p class="whiteP">33-100 Tarnów</p>
           </Col>
           <Col sm={6} className="colcon">
           <FontAwesomeIcon icon={faEnvelope}  size = '5x' className="iconContact" />
-          <h3 className="blueP">E-mail</h3>
-          <p class="redH">kontakt.uscars@gmail.com</p>
+          <h3 className="whiteP">E-mail</h3>
+          <p class="whiteP">kontakt.uscars@gmail.com</p>
           
           
           </Col>

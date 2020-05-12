@@ -15,9 +15,12 @@ a:hover{
     text-decoration: none;
 }
 .iconContact{
-    color:rgb(22, 55, 161);
+    padding-top: 10px;;
+    color:rgb(253, 253, 253);
 }
-
+.whiteP{
+    color:white;
+}
 .complets{
     padding:50px;
     padding-top: 250px;
@@ -26,8 +29,10 @@ a:hover{
     height: auto;
 }
 .colcon{
+    padding-top:40px;;
+    background-color:rgb(22, 55, 161) ;
     text-align: center;
-    border-right: 1px solid rgb(22, 55, 161);
+    border-right: 1px solid white;
     border-left: 1px solid rgb(22, 55, 161);
 }
 .contactForm{
@@ -38,11 +43,10 @@ a:hover{
     font-size: 10px;
     color:white;
 }
-#formGridText{
-    height:300px;
-}
+
 @media (max-width:500px){
     .colcon{
+        padding-top:40px;
         text-align: center;
         padding:10px;
         border-right: 1px solid rgb(22, 55, 161);

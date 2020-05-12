@@ -25,7 +25,7 @@ export default class ContactForm extends React.Component {
                     <Row>
                     <Col>
                     
-                    <Form className="contactForm">
+                    <Form className="contactForm" name="contact" method="POST" data-netlify="true" >
                     <Form.Row><Col md={6}>
                     <Form.Group as={Col} controlId="formGridName">
                 <Form.Label className="redP">Imię i nazwisko</Form.Label>

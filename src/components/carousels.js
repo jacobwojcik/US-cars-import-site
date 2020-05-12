@@ -13,6 +13,7 @@ export default function Carousels() {
         <Carousel.Item>
        <img src={Car1} />  
           <Carousel.Caption>
+            
             <h2 className="carou animated zoomIn slow">UScars Import</h2>
             <h3 className="carou animated zoomIn slow">Najlepsze samochody wprost z USA</h3>
           </Carousel.Caption>
