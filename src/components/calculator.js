@@ -34,10 +34,10 @@ export default class Calc extends React.Component {
 
       handleSubmit(event) {
         let city=this.state.place;
-        let carPrice=Number(this.state.value)*4.20 //dollar rate
-        let n1= Number(this.state.value);
-        let n2= Number(this.state.value);
-        let n4=Math.ceil(Number(this.state.value)*0.1);
+        let carPrice=Number(this.state.value) //dollar rate
+        let n1;
+        let n2;
+        
         
         
         
@@ -369,27 +369,24 @@ export default class Calc extends React.Component {
           "YORK HAVEN":1075,
           "YORK SPRINGS":1075
         } 
-        n6=(listOfCities[city]+600)*4.2;
+        n6=(listOfCities[city]+600);
+        let n3=59;
+        let n4=n1+n2+n3+carPrice;
+        let n5=(n4+n6)*4.2;
+        n4/=4;
+        n4*=0.29;
+        n4*=4.55;
+        n4+=2000;
+        n5=Math.floor(n5+n4+3900);
 
-
+        
 
 
 
 
        
-        n1*=4.20;
-        n2*=4.20;   //dollar rate
-        let n3=(4.20)*59;
-        //n4*=Number(this.state.dollar);
+       
         
-
-        let n5= n1+n2+n3+(carPrice/4.2);
-        n4=n5/=4;
-        n4*=0.29;
-        n4*=4.50; //euro rate
-        n4+=2000;
-        n4=Math.floor(n4);
-        n5=Math.ceil(n5+n4+3900+n6+carPrice);
 
         this.setState({auction: n1});
         this.setState({commission: n2});
@@ -687,18 +684,16 @@ export default class Calc extends React.Component {
       </p>
       </Col>
     </Row>
+    {/* <h1 className="test2">{this.state.auction}$</h1>
+    <h1 className="test2">{this.state.commission}$</h1>
+    <h1 className="test2">{this.state.embark}$</h1>
+    <h1 className="test2">{this.state.custom}$</h1>
+  <Row></Row> */}
 
-    
- 
-
-    
-
-  
-
-  
 </Form>
 
 
+    
 
 
             

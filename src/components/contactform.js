@@ -25,20 +25,29 @@ export default class ContactForm extends React.Component {
                     <Row>
                     <Col>
                     
-                    <Form className="contactForm" name="contact" action="/thanks/" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" >
-                    <input type="hidden" name="form-name" value="contact" />
+                    <Form className="contactForm" 
+                    name="contact"
+                    method="post" 
+                    data-netlify="true" 
+                    data-netlify-honeypot="bot-field" 
+                    action="/thanks/" 
+                    >
+                    <input type="hidden"
+                     name="contact"
+                      value="contact" 
+                      />
                     <Form.Row><Col md={6}>
                     <Form.Group as={Col} controlId="formGridName">
                         
                 <Form.Label className="redP">Imię i nazwisko</Form.Label>
-                <Form.Control type="text" placeholder="Wprowadź dane"
+                <Form.Control name="name" type="text" placeholder="Wprowadź dane"
                 />
                 </Form.Group>
                 </Col>
                 <Col md={6}>
                 <Form.Group as={Col} controlId="formGridEmail">
                 <Form.Label className="redP">Email</Form.Label>
-                <Form.Control type="email" placeholder="Wprowadź email"
+                <Form.Control name="email" type="email" placeholder="Wprowadź email"
                  />
                 </Form.Group>
                 </Col>
@@ -47,14 +56,14 @@ export default class ContactForm extends React.Component {
             <Col>
             <Form.Group controlId="formGridPhone">
                 <Form.Label className="redP">Telefon</Form.Label>
-                <Form.Control placeholder="Podaj nr telefonu" 
+                <Form.Control name="phone" placeholder="Podaj nr telefonu" 
                 />
             </Form.Group>
             </Col>
             <Col>
             <Form.Group controlId="exampleForm.ControlTextarea1">
                 <Form.Label className="redP">Twoja wiadomość</Form.Label>
-                <Form.Control as="textarea" rows="10" placeholder="Napisz już teraz!"
+                <Form.Control name="message" as="textarea" rows="10" placeholder="Napisz już teraz!"
                  />
             </Form.Group>
             </Col>
