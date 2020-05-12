@@ -25,7 +25,7 @@ export default class ContactForm extends React.Component {
                     <Row>
                     <Col>
                     
-                    <Form className="contactForm" name="contact" method="POST" data-netlify="true" >
+                    <Form className="contactForm" name="contact" action="/thanks/" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" >
                     <input type="hidden" name="form-name" value="contact" />
                     <Form.Row><Col md={6}>
                     <Form.Group as={Col} controlId="formGridName">
@@ -55,7 +55,7 @@ export default class ContactForm extends React.Component {
             <Form.Group controlId="exampleForm.ControlTextarea1">
                 <Form.Label className="redP">Twoja wiadomość</Form.Label>
                 <Form.Control as="textarea" rows="10" placeholder="Napisz już teraz!"
-                value="contact" />
+                 />
             </Form.Group>
             </Col>
             <Form.Group id="formGridCheckbox">
