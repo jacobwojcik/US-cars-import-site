@@ -26,16 +26,15 @@ export default class ContactForm extends React.Component {
                     <Col>
                     
                     <Form className="contactForm" 
-                    name="contact"
+                    name="contact" 
                     method="post" 
                     data-netlify="true" 
-                    data-netlify-honeypot="bot-field" 
+                    data-netlify-honeypot="bot-field"
                     action="/thanks/" 
                     >
                     <input type="hidden"
-                     name="contact"
-                      value="contact" 
-                      />
+                     name="form-name"
+                      value="contact" />
                     <Form.Row><Col md={6}>
                     <Form.Group as={Col} controlId="formGridName">
                         
