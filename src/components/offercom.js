@@ -15,7 +15,7 @@ Z USA LUB KANADY?</h1>
                     <Col md={4}>
                     <FontAwesomeIcon icon={faSearchDollar}  size = '4x' className="iconOffer" />
                         <h2 className="blueP">1.	WYBÓR ODPOWIEDNIEGO MODELU</h2>
-                        <p className="lBlue">Współpracę rozpoczynamy od wyszukania odpowiedniego. Następnie auto jest przez nas weryfikowane poprzez Raporty Carfax oraz Autocheck. Po sprawdzeniu historii klient otrzymuje od nas kosztorys sprowadzenia. </p>
+                        <p className="lBlue">Współpracę rozpoczynamy od wyszukania odpowiedniego samochodu. Następnie auto jest przez nas weryfikowane poprzez Raporty Carfax oraz Autocheck. Po sprawdzeniu historii klient otrzymuje od nas kosztorys sprowadzenia. </p>
                     </Col>
                     <Col md={4}>
                     <FontAwesomeIcon icon={faCalculator}  size = '4x' className="iconOffer" />

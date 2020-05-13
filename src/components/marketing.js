@@ -13,13 +13,13 @@ const Marketing = () => (
                        </Col>
                        </Row>
                        <Row><Col>
-                       <ProgressBar striped variant="info" animated now={100} label={`7245`} />
+                       <ProgressBar striped variant="info" animated now={100} label={`780`} />
                        <h3 className="head1">Zrealizowanych zamówień</h3>
                        </Col>
                        </Row>
                        <Row><Col>
-                       <ProgressBar striped variant="danger" animated now={100} label={`15`} />
-                       <h3 className="head1">Lat w branży</h3>
+                       <ProgressBar striped variant="danger" animated now={100} label={`3`} />
+                       <h3 className="head1">Lata w branży</h3>
                        </Col>
                     </Row>
                 </Container>

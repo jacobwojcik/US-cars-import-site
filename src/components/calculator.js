@@ -408,7 +408,7 @@ export default class Calc extends React.Component {
       <p className="blueP">Kwota ($)</p>
     </Form.Label>
     <Col sm={3}>
-      <Form.Control  type="number"  placeholder="Wprowadz kwote" value={this.state.value} onChange={this.handleChange} />
+      <Form.Control  type="number"  placeholder="Wprowadź kwote" value={this.state.value} onChange={this.handleChange} />
             
     </Col>
     <Col sm={3}></Col>

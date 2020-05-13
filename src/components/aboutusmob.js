@@ -12,47 +12,23 @@ class AboutusMob  extends React.Component{
     render(){
     return (
         <section className="aboutusmob">
-            <div>
-            <Container>
-                    <Row >
-                    
-                        <Col md={6} className="aboutColMob">
-                        <h1 className="blueP">Kilka słów o nas</h1>
-                        <p className="blueP">
-                        Do naszej specjalizacji należy import samochodów z USA – 
-                        uszkodzonych, bezwypadkowych, zabytkowych oraz nowych. Pośredniczymy w zakupie pojazdów
-                         osobowych na największych aukcjach w Stanach Zjednoczonych (IAAI, Copart, Manheim).
-                          Posiadamy niezbędne doświadczenie dzięki któremu zapewniamy kompleksowość usług oraz
-                           możliwie najszybsze sprowadzenie aut z USA. Bazując na licencji dealera samochodowego
-                            możemy 
-                        brać udział w aukcjach samochodowych dostępnych tylko dla tego typu kontrahentów.
-                        </p>
-                        </Col>
-                        <Col md={6} className="aboutColMob">
-                        <FontAwesomeIcon icon={faUserTie}  size = '10x' className="iconCon" />   
-                            </Col>
-                        
-                        </Row>
-                        <Row>
-                       
-                         <Col md={6} className="aboutColMob">
-                            <h1 className="blueP">Dlaczego my?</h1>
-                        <p className="blueP">
-                        prowadzenie samochodu z Ameryki to obecnie rozwiązanie bardzo popularne, za stosunkowo
-                         niewielką kwotę można bowiem pozyskać niemalże dowolny pojazd w bardzo atrakcyjnnej
-                          cenie! Nasza firma oferuje bardzo konkurencyjne stawki które korzystnie wyróżniają się
-                           także na tle innych firm pośredniczących w kupnie samochodów na akcjach w Stanach.
-                            Posiadamy bardzo atrakcyjne ceny transportu lądowego i morskiego oraz stałą prowizję,
-                             która jest 
-                        niezależna od wysokości kwoty zakupu sprowadzanego auta z USA.
-                            </p>                       
-                         </Col>
-                         <Col md={6} className="aboutColMob">
-                        <FontAwesomeIcon icon={faChartLine}  size = '10x' className="iconCon" />                   
-                         </Col>
-                    </Row>
-                </Container>
+            <h1>Cechuje nas:</h1>
+            <div className="wrappermob">
+                <div className="bgmob">
+                    <h1>PROFESJONALIZM</h1>
+                </div>
+                <div className="bgmob">
+                <h1>SZYBKOŚĆ</h1>
+                </div>
+                <div className="bgmob">
+                <h1>SUMIENNOŚĆ</h1>
+                </div>
+                <div className="bgmob">
+                <h1>100% SATYSFAKCJI</h1>
+                </div>
+
             </div>
+
         </section>
 
     );

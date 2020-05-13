@@ -50,6 +50,7 @@ class AboutusTest  extends React.Component{
                 <h1>100% SATYSFAKCJI</h1>
                 </div>
             </div>
+            <h1>TO MY!</h1>
         </section>
 
     );
