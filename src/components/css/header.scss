@@ -111,7 +111,7 @@ header{
 
 
 
-@media (max-width:1000px){
+@media (max-width:1200px){
    .aboutuscom{
        display:none;
    }
@@ -119,4 +119,87 @@ header{
        display:block;
        padding:10px;
    }
+}
+
+
+
+.backImg{
+    background-image: url("../../images/mercedes.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.aboutCol{
+    padding:50px;
+    text-align: center;
+    background-color: rgb(35, 46, 199);
+    opacity:0.8;
+    
+
+}
+.aboutRow{
+    padding:50px;
+}
+
+.opinionSection {
+    padding:5rem;
+    
+}
+.colOpi{
+    padding: 20px;
+}
+.colOpi > div{
+    padding: 20px;
+    box-shadow:1px 1px 3px 1px blue;
+    height:auto;
+    background-color: rgb(255, 255, 255);
+    color:rgb(35, 46, 199);
+}
+#quote{
+    fill:blue;
+    float: right;
+    width: 30px;
+    height:30px;
+
+
+
+}
+
+
+
+
+
+
+
+.wrapper{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5px;
+    padding:1rem;
+}
+.wrapper > div{
+    
+    height: 235px;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    transition: all 0.3s ease-in;
+    
+}
+.wrapper > div:hover{
+    opacity: 0.7;
+    transform: scale(0.95);
+    
+}
+.bg1{
+    background-image: url("../../images/mustang1.jpg");
+}
+.bg1 >h1{
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }

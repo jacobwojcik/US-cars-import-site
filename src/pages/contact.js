@@ -9,7 +9,6 @@ import "../components/css/contact.scss"
 import "@fortawesome/fontawesome-svg-core"
 import "@fortawesome/free-brands-svg-icons"
 import "@fortawesome/free-solid-svg-icons"
-import "@fortawesome/free-regular-svg-icons"
 import "@fortawesome/react-fontawesome"
 import ContactForm from "../components/contactform"
 

@@ -680,7 +680,7 @@ export default class Calc extends React.Component {
     </Row>
     <Row>
       <Col><p className="calcText">
-        Koszt oszacowywany jest podstawie kosztu samochodu, prowizjii serwisu aukcyjnego, kosztu transportu, wysokości cła oraz prowizjii UScars. 
+        Koszt oszacowywany jest na podstawie kosztu samochodu, prowizji serwisu aukcyjnego, kosztu transportu, wysokości cła oraz prowizjii UScars. 
       </p>
       </Col>
     </Row>
