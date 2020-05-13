@@ -122,12 +122,26 @@ header{
 }
 
 
-
+.opinionP{
+    color:white;
+}
 .backImg{
     background-image: url("../../images/mercedes.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
+
+@media (max-width:700px){
+    .backImg{
+        background-image: url("../../images/carback.jpeg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .opinionP{
+        color:white;
+        text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+    }
+ }
 .aboutCol{
     padding:50px;
     text-align: center;

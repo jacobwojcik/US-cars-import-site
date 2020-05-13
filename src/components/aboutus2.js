@@ -10,7 +10,7 @@ export default function Aboutus2() {
                 <Container >
                     <Row >
                         <Col >
-                            <h1 className="whiteP">Dlaczego my?</h1>
+                            <h1 className="opinionP">Dlaczego my?</h1>
                         </Col>
                     </Row>
                     <Row className="aboutRow">
