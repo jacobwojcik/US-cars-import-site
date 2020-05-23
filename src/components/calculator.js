@@ -16,6 +16,8 @@ export default class Calc extends React.Component {
             custom:0,
             delivery:'',
             sum:0,
+            dol:'',
+            eur:''
             
     };
         this.handleChange = this.handleChange.bind(this);
@@ -33,8 +35,10 @@ export default class Calc extends React.Component {
 
 
       handleSubmit(event) {
+
+
         let city=this.state.place;
-        let carPrice=Number(this.state.value) //dollar rate
+        let carPrice=Number(this.state.value) 
         let n1;
         let n2;
         
@@ -369,31 +373,42 @@ export default class Calc extends React.Component {
           "YORK HAVEN":1075,
           "YORK SPRINGS":1075
         } 
+
+        //currency rates
+
+        fetch('https://api.exchangeratesapi.io/latest?base=USD')
+          .then(res => res.json())
+            .then(data => {
+              let dolrate=data.rates.PLN;
+              this.setState({dol: dolrate});
+            })
+        fetch('https://api.exchangeratesapi.io/latest?base=EUR')
+        .then(res => res.json())
+          .then(data => {
+            let eurate=data.rates.PLN;
+            this.setState({eur: eurate});
+          })
+       
+
         n6=(listOfCities[city]+600);
         let n3=59;
         let n4=n1+n2+n3+carPrice;
-        let n5=(n4+n6)*4.2;
+        let n5=(n4+n6)*this.state.dol; //dollar
         n4/=4;
         n4*=0.29;
-        n4*=4.55;
+        n4*=this.state.eur; //euro
         n4+=2000;
         n5=Math.floor(n5+n4+3900);
 
+
         
-
-
-
-
-       
-       
-        
-
         this.setState({auction: n1});
         this.setState({commission: n2});
         this.setState({embark: n3});
         this.setState({custom: n4});
         this.setState({sum: n5});
         this.setState({delivery: n6});
+        
         event.preventDefault();
       }
 
@@ -684,6 +699,8 @@ export default class Calc extends React.Component {
       </p>
       </Col>
     </Row>
+    <h1 className="test2">DD {this.state.dol}</h1>
+    <h1 className="test2">DD {this.state.eur}</h1>
     {/* <h1 className="test2">{this.state.auction}$</h1>
     <h1 className="test2">{this.state.commission}$</h1>
     <h1 className="test2">{this.state.embark}$</h1>
