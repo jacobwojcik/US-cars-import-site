@@ -16,8 +16,8 @@ export default class Calc extends React.Component {
             custom:0,
             delivery:'',
             sum:0,
-            dol:'',
-            eur:''
+            dol:'4.15',
+            eur:'4.50'
             
     };
         this.handleChange = this.handleChange.bind(this);
@@ -27,6 +27,21 @@ export default class Calc extends React.Component {
     
       handleChange(event) {    
           this.setState({value: event.target.value}); 
+
+           //currency rates
+
+         fetch('https://api.exchangeratesapi.io/latest?base=USD')
+         .then(res => res.json())
+           .then(data => {
+             let dolrate=data.rates.PLN;
+             this.setState({dol: dolrate});
+           })
+          fetch('https://api.exchangeratesapi.io/latest?base=EUR')
+          .then(res => res.json())
+            .then(data => {
+              let eurate=data.rates.PLN;
+              this.setState({eur: eurate});
+            })
       
         }
       handleChangePlace(event) {  
@@ -35,12 +50,13 @@ export default class Calc extends React.Component {
 
 
       handleSubmit(event) {
-
+        
 
         let city=this.state.place;
         let carPrice=Number(this.state.value) 
         let n1;
         let n2;
+        
         
         
         
@@ -374,22 +390,6 @@ export default class Calc extends React.Component {
           "YORK SPRINGS":1075
         } 
 
-        //currency rates
-
-        fetch('https://api.exchangeratesapi.io/latest?base=USD')
-          .then(res => res.json())
-            .then(data => {
-              let dolrate=data.rates.PLN;
-              this.setState({dol: dolrate});
-            })
-        fetch('https://api.exchangeratesapi.io/latest?base=EUR')
-        .then(res => res.json())
-          .then(data => {
-            let eurate=data.rates.PLN;
-            this.setState({eur: eurate});
-          })
-       
-
         n6=(listOfCities[city]+600);
         let n3=59;
         let n4=n1+n2+n3+carPrice;
@@ -409,13 +409,13 @@ export default class Calc extends React.Component {
         this.setState({sum: n5});
         this.setState({delivery: n6});
         
-        event.preventDefault();
+        
       }
 
     render(){
     return (
         <section className="calculator">
-            <Form>
+            <Form >
                 <h1 className="blueP">Kalkulator kosztów</h1>
   <Form.Group as={Row} controlId="formHorizontal">
     <Col sm={2}></Col>
@@ -423,7 +423,20 @@ export default class Calc extends React.Component {
       <p className="blueP">Kwota ($)</p>
     </Form.Label>
     <Col sm={3}>
-      <Form.Control  type="number"  placeholder="Wprowadź kwote" value={this.state.value} onChange={this.handleChange} />
+      <Form.Control  
+        
+        type="number"  
+        placeholder="Wprowadź kwote" 
+        value={this.state.value} 
+        onChange={this.handleChange} 
+        
+        onKeyPress={event =>{
+          if(event.key === 'Enter'){
+            event.preventDefault();
+            this.handleSubmit();
+          }
+        }}  
+        />
             
     </Col>
     <Col sm={3}></Col>
@@ -699,8 +712,8 @@ export default class Calc extends React.Component {
       </p>
       </Col>
     </Row>
-    <h1 className="test2">DD {this.state.dol}</h1>
-    <h1 className="test2">DD {this.state.eur}</h1>
+    {/* <h1 className="test2">DD {this.state.dol}</h1>
+    <h1 className="test2">DD {this.state.eur}</h1> */}
     {/* <h1 className="test2">{this.state.auction}$</h1>
     <h1 className="test2">{this.state.commission}$</h1>
     <h1 className="test2">{this.state.embark}$</h1>
