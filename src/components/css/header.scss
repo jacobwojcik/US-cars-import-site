@@ -1,270 +1,73 @@
-header{
-    height: auto;
-    padding:15px;
-    background-color:rgb(35, 46, 199);
-    align-items: center;
-}
-.navbar{
-    color: rgb(238, 238, 238);
-}
-.navLink{
-    color: rgb(245, 245, 245);
-    
-
-}
-
-.navLink:hover{
-    color: rgb(153, 146, 146);
-    text-decoration: none;
-
-}
-
-.navbut{
-    margin-right: 30px;
-    // border: 1px double black;
-    
-}
-.iconhead{
-   fill:rgb(255, 255, 255);
-   width:40px;
-   height:40px;
-}
-
-
-
-
-
-//aboutus
-
-.sec1{
-    background-color: rgb(255, 255, 255); 
-    padding: 50px;
-    color: black;
-}
- .heading{
-    color: rgb(35, 46, 199);
- }
-.aicon{
-    fill:rgb(214, 21, 21);
-    width:90px;
-    height:90px;
-    padding:10px; 
-}
-.sec2col{
-    text-align: center;
-    padding: 20px;
-}
-
 //aboutuscom
-.iconCon{
-    color:rgb(35, 46, 199);
+.iconCon {
+  color: rgb(35, 46, 199);
 }
-.aboutuscom
-{
-    background-color: rgb(245, 240, 240);
-    height: auto;
-    padding: 50px;
-    color:blue;
-    text-align: center;
-    
+.aboutuscom {
+  background-color: rgb(245, 240, 240);
+  height: auto;
+  padding: 50px;
+  color: blue;
+  text-align: center;
 }
 
+.aboutcol {
+  padding: 5px;
 
-.aboutcol{
-    padding:5px;
-  
-    text-align: center;
-    border: 2px solid rgb(28, 48, 163);
-    background-color: rgb(235, 231, 231);
-   
+  text-align: center;
+  border: 2px solid rgb(28, 48, 163);
+  background-color: rgb(235, 231, 231);
 }
-.aboutcol3{
-    padding:5px;
-    color: black;;
-    text-align: center;
-    border: 2px solid rgb(28, 48, 163);
-    
-    background-color: rgb(235, 231, 231);
-   
+.aboutcol3 {
+  padding: 5px;
+  color: black;
+  text-align: center;
+  border: 2px solid rgb(28, 48, 163);
+
+  background-color: rgb(235, 231, 231);
 }
-.aboutcol1{
-    
-    text-align: center;
-    padding-top: 100px;
-   
-   
+.aboutcol1 {
+  text-align: center;
+  padding-top: 100px;
 }
-.aboutcol2{
-    padding:5px;
-    text-align: center;
-    padding-top: 120px;
-   
-   
-}
-.aboutusmob{
-    display:none;
-}
-.abrow{
-    
-}
-.aboutColMob{
-    text-align: center;
-    padding: 20px;
+.aboutcol2 {
+  padding: 5px;
+  text-align: center;
+  padding-top: 120px;
 }
 
-
-
-@media (max-width:1200px){
-   .aboutuscom{
-       display:none;
-   }
-   .aboutusmob{
-       text-align: center;
-       color:blue;
-       display:block;
-       padding:10px;
-   }
+.abrow {
+}
+.aboutColMob {
+  text-align: center;
+  padding: 20px;
 }
 
-
-.opinionP{
-    color:white;
+.opinionP {
+  color: white;
 }
-.backImg{
-    background-image: url("../../images/mercedes.jpg");
+.backImg {
+  background-image: url("../../images/mercedes.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media (max-width: 700px) {
+  .backImg {
+    background-image: url("../../images/carback.jpeg");
     background-size: cover;
     background-attachment: fixed;
+  }
+  .opinionP {
+    color: white;
+    text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+  }
 }
-
-@media (max-width:700px){
-    .backImg{
-        background-image: url("../../images/carback.jpeg");
-        background-size: cover;
-        background-attachment: fixed;
-    }
-    .opinionP{
-        color:white;
-        text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
-    }
- }
-.aboutCol{
-    padding:50px;
-    text-align: center;
-    background-color: rgb(35, 46, 199);
-    opacity:0.8;
-    
-
+.aboutCol {
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(35, 46, 199);
+  opacity: 0.8;
 }
-.aboutRow{
-    padding:50px;
+.aboutRow {
+  padding: 50px;
 }
-
-.opinionSection {
-    padding:5rem;
-    
-}
-.colOpi{
-    padding: 20px;
-}
-.colOpi > div{
-    padding: 20px;
-    box-shadow:1px 1px 3px 1px blue;
-    height:auto;
-    background-color: rgb(255, 255, 255);
-    color:rgb(35, 46, 199);
-}
-#quote{
-    fill:blue;
-    float: right;
-    width: 30px;
-    height:30px;
-
-
-
-}
-
-
-
-
-
-
-
-.wrapper{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 5px;
-    padding:1rem;
-}
-.wrapper > div{
-    
-    height: 235px;
-    text-align: center;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-    transition: all 0.3s ease-in;
-    
-}
-.wrapper > div:hover{
-    opacity: 0.7;
-    transform: scale(0.95);
-    
-}
-.bg1{
-    background-image: url("../../images/mustang1.jpg");
-}
-.bg1 >h1{
-    color:white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-
-
-
-@media (max-width:1200px) {
-    .wrappermob{
-        display:grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-gap: 5px;
-        padding:1rem;
-    }
-    .wrappermob > div{
-        
-        height: 235px;
-        text-align: center;
-        background-size: cover;
-        background-attachment: fixed;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    
-        transition: all 0.3s ease-in;
-        
-    }
-    .wrappermob > div:hover{
-        opacity: 0.7;
-        transform: scale(0.95);
-        
-    }
-    .bgmob{
-        background-image: url("../../images/carsbg.jpeg");
-    }
-    .bgmob >h1{
-        color:white;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    }
-}
-
-
-
-
-
-
-

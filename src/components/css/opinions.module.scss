@@ -1,0 +1,27 @@
+@import "./index";
+
+.sec3 {
+  background-color: rgb(247, 247, 247);
+  padding: 30px;
+  height: auto;
+  h1 {
+    color: $secondaryCol;
+  }
+}
+.opinionCol {
+  padding: 20px;
+
+  div {
+    padding: 20px;
+    box-shadow: 1px 1px 3px 1px $secondaryCol;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    color: $secondaryCol;
+  }
+  svg {
+    fill: blue;
+    float: right;
+    width: 30px;
+    height: 30px;
+  }
+}

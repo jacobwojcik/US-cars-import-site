@@ -1,0 +1,17 @@
+@import "./index";
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  background-color: $primaryCol;
+  text-align: center;
+  border: 2px solid $secondaryCol;
+}
+.card-body {
+  background-color: $primaryCol;
+}
+.card-title {
+  font-weight: bold;
+  color: $tertiaryCol;
+}

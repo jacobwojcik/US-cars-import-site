@@ -1,17 +1,16 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import AboutusCom from "../components/aboutuscom"
-import AboutusMob from "../components/aboutusmob"
-import Aboutustest from "../components/aboutustest"
+import About1 from "../components/js/About1"
+import AboutusMob from "../components/js/Aboutusmob"
+
 const About = () => (
   <Layout>
     <SEO title="O nas" />
-    <Aboutustest/>
-    
-    <AboutusMob/>
+    <About1 />
 
-  </Layout> 
+    <AboutusMob />
+  </Layout>
 )
 
 export default About
