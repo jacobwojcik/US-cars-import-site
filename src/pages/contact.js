@@ -1,80 +1,57 @@
 import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faFacebook } from "@fortawesome/free-brands-svg-icons"
-import {
-  faPhone,
-  faMapMarkedAlt,
-  faEnvelope,
-} from "@fortawesome/free-solid-svg-icons"
 import { Container, Row, Col } from "react-bootstrap"
 import Layoutcon from "../components/layoutcon"
 import SEO from "../components/seo"
-import "../components/css/contact.scss"
-import "@fortawesome/fontawesome-svg-core"
-import "@fortawesome/free-brands-svg-icons"
-import "@fortawesome/free-solid-svg-icons"
-import "@fortawesome/react-fontawesome"
-import ContactForm from "../components/contactform"
+import { FaFacebook, FaMapMarkedAlt, FaEnvelope, FaPhone } from "react-icons/fa"
+import ContactForm from "../components/js/Contactform"
+import contactStyles from "../components/css/contact.module.scss"
 
 const Contact = () => (
   <Layoutcon>
     <SEO title="Kontakt" />
-    <section className="contactSec">
+    <section className={contactStyles.contactSection}>
       <Container>
         <Row>
           <Col>
-            <h1 className="blueP">Skontaktuj się z nami!</h1>
+            <h1>Skontaktuj się z nami!</h1>
           </Col>
         </Row>
         <Row>
           <Col>
-            <h2 className="blueP">
+            <h2>
               Skontaktuj się z nami przez Fanpage na Facebooku lub telefonicznie
             </h2>
           </Col>
         </Row>
         <Row>
-          <Col sm={6} className="colcon">
-            <FontAwesomeIcon
-              icon={faFacebook}
-              size="5x"
-              className="iconContact"
-            />
-            <h3 className="whiteP">Facebook</h3>
+          <Col sm={6} className={contactStyles.contactCol}>
+            <FaFacebook size="5em" />
+            <h3>Facebook</h3>
             <a
               href="https://www.facebook.com/USAUScars"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p class="whiteP">UScars</p>
+              <p>UScars</p>
             </a>
           </Col>
-          <Col sm={6} className="colcon">
-            <FontAwesomeIcon icon={faPhone} size="5x" className="iconContact" />
-            <h3 className="whiteP">Telefon</h3>
-            <p class="whiteP">502 603 263</p>
-            <p class="whiteP">501 151 463</p>
+          <Col sm={6} className={contactStyles.contactCol}>
+            <FaPhone size="5em" />
+            <h3>Telefon</h3>
+            <p>502 603 263</p>
+            <p>501 151 463</p>
           </Col>
         </Row>
         <Row>
-          <Col sm={6} className="colcon">
-            <FontAwesomeIcon
-              icon={faMapMarkedAlt}
-              size="5x"
-              className="iconContact"
-            />
-            <h3 className="whiteP">Lokalizacja</h3>
-            <p class="whiteP">ul.Szkotnik 2B</p>
-            <p class="whiteP">33-100 Tarnów</p>
+          <Col sm={6} className={contactStyles.contactCol}>
+            <FaMapMarkedAlt size="5em" />
+            <h3>Lokalizacja</h3>
+            <p>ul.Szkotnik 2B, Tarnów</p>
           </Col>
-          <Col sm={6} className="colcon">
-            <FontAwesomeIcon
-              icon={faEnvelope}
-              size="5x"
-              className="iconContact"
-            />
-            <h3 className="whiteP">E-mail</h3>
-            <p class="whiteP">kontakt.uscars@gmail.com</p>
+          <Col sm={6} className={contactStyles.contactCol}>
+            <FaEnvelope size="5em" />
+            <h3>E-mail</h3>
+            <p>kontakt.uscars@gmail.com</p>
           </Col>
         </Row>
         <Row>

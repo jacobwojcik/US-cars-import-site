@@ -1,14 +1,13 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
-  faSearchDollar,
-  faCalculator,
-  faClipboardList,
-  faCarAlt,
-  faCheckSquare,
-  faAngleDoubleRight,
-} from "@fortawesome/free-solid-svg-icons"
+  FaSearchDollar,
+  FaCalculator,
+  FaClipboardList,
+  FaCarAlt,
+  FaCheckSquare,
+  FaAngleDoubleRight,
+} from "react-icons/fa"
 import ProcedureStyles from "../css/procedure.module.scss"
 
 export default function Process() {
@@ -18,11 +17,7 @@ export default function Process() {
         <Row>
           <h1>JAK WYBRAĆ I SPROWADZIĆ SAMOCHÓD Z USA LUB KANADY?</h1>
           <Col md={4}>
-            <FontAwesomeIcon
-              icon={faSearchDollar}
-              size="4x"
-              className={ProcedureStyles.icon}
-            />
+            <FaSearchDollar size="5em" className={ProcedureStyles.icon} />
             <h2>1. WYBÓR ODPOWIEDNIEGO MODELU</h2>
             <p>
               Współpracę rozpoczynamy od wyszukania odpowiedniego samochodu.
@@ -32,11 +27,7 @@ export default function Process() {
             </p>
           </Col>
           <Col md={4}>
-            <FontAwesomeIcon
-              icon={faCalculator}
-              size="4x"
-              className={ProcedureStyles.icon}
-            />
+            <FaCalculator size="5em" className={ProcedureStyles.icon} />
             <h2>2. UMOWA ORAZ ZALICZKA</h2>
             <p>
               Po dokonaniu wyboru pojazdu, podpisujemy umowę która jest formą
@@ -47,11 +38,7 @@ export default function Process() {
             </p>
           </Col>
           <Col md={4}>
-            <FontAwesomeIcon
-              icon={faClipboardList}
-              size="4x"
-              className={ProcedureStyles.icon}
-            />
+            <FaClipboardList size="5em" className={ProcedureStyles.icon} />
             <h2>3. PŁATNOŚC ZA SAMOCHÓD</h2>
             <p>
               Po otrzymaniu informacji o wygranej aukcji, Klient jest
@@ -64,11 +51,7 @@ export default function Process() {
         </Row>
         <Row>
           <Col md={4}>
-            <FontAwesomeIcon
-              icon={faAngleDoubleRight}
-              size="4x"
-              className={ProcedureStyles.icon}
-            />
+            <FaAngleDoubleRight size="5em" className={ProcedureStyles.icon} />
 
             <h2>4. TRANSPORT</h2>
             <p>
@@ -81,11 +64,7 @@ export default function Process() {
             </p>
           </Col>
           <Col md={4}>
-            <FontAwesomeIcon
-              icon={faCheckSquare}
-              size="4x"
-              className={ProcedureStyles.icon}
-            />
+            <FaCheckSquare size="5em" className={ProcedureStyles.icon} />
             <h2>5. ODPRAWA CELNA</h2>
             <p>
               Po dotarciu pojazdu do portu w Bremerhaven organizujemy opłaty
@@ -94,11 +73,7 @@ export default function Process() {
             </p>
           </Col>
           <Col md={4}>
-            <FontAwesomeIcon
-              icon={faCarAlt}
-              size="4x"
-              className={ProcedureStyles.icon}
-            />
+            <FaCarAlt size="5em" className={ProcedureStyles.icon} />
 
             <h2>6. ODBIÓR SAMOCHODU</h2>
             <p>

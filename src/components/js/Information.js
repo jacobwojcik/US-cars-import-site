@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap"
 import AboutStyles from "../css/header.module.scss"
 import "animate.css/animate.css"
 
-const Aboutus = () => {
+const Information = () => {
   return (
     <section className={AboutStyles.sec1}>
       <div>
@@ -96,4 +96,4 @@ const Aboutus = () => {
   )
 }
 
-export default Aboutus
+export default Information

@@ -1,17 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Calc from "../components/calculator"
+import Calc2 from "../components/js/Calculator"
 
 const Calculator = () => (
   <Layout>
-      {/* <Helmet>
-        <script src={withPrefix('script.js')} type="text/javascript" />
-    </Helmet> */}
     <SEO title="Kalkulator kosztów" />
-    
-   <Calc/>
-    
+    <Calc2 />
   </Layout>
 )
 

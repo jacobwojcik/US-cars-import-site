@@ -5,7 +5,6 @@ import { graphql } from "gatsby"
 import PropTypes from "prop-types"
 import Lightbox from "../components/lightbox"
 import { Container } from "react-bootstrap"
-import "../components/css/offercom.scss"
 import CompletionsStyles from "../components/css/completions.module.scss"
 
 const Completions = ({ data }) => (
