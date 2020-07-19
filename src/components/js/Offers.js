@@ -1,9 +1,9 @@
 import React from "react"
 import { Container, Row, Col, Card, Button } from "react-bootstrap"
 import OffersStyles from "../css/offers.module.scss"
-import Car1 from "../../images/supra.jpg"
-import Car2 from "../../images/bmwi8.jpg"
-import Car3 from "../../images/mustang.jpg"
+import Car1 from "../gatimages/offer1"
+import Car2 from "../gatimages/offer2"
+import Car3 from "../gatimages/offer3"
 
 const Offers = () => (
   <section className={OffersStyles.sec5}>
@@ -16,7 +16,7 @@ const Offers = () => (
       <Row>
         <Col lg={4} className={OffersStyles.offerCol}>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={Car1}></Card.Img>
+            <Car1 />
             <Card.Body>
               <Card.Title>2020 TOYOTA SUPRA</Card.Title>
               <Card.Text>
@@ -37,7 +37,7 @@ const Offers = () => (
         </Col>
         <Col lg={4} className={OffersStyles.offerCol}>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={Car2} />
+            <Car2 />
             <Card.Body>
               <Card.Title> 2019 BMW I8 ROADSTER </Card.Title>
               <Card.Text>
@@ -58,7 +58,7 @@ const Offers = () => (
         </Col>
         <Col lg={4} className={OffersStyles.offerCol}>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={Car3} />
+            <Car3 />
             <Card.Body>
               <Card.Title>FORD MUSTANG GT</Card.Title>
               <Card.Text>
