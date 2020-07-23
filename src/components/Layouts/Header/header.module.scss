@@ -1,0 +1,26 @@
+@import "../../css/index";
+
+header {
+  height: auto;
+  padding: 15px;
+  background-color: $secondaryCol;
+
+  svg {
+    fill: $primaryCol;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.navLink {
+  color: $primaryCol;
+}
+
+.navLink:hover {
+  color: rgb(153, 146, 146);
+  text-decoration: none;
+}
+
+.navbut {
+  margin-right: 30px;
+}

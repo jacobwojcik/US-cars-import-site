@@ -1,11 +1,11 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/Layouts/Layout"
 import SEO from "../components/seo"
 import { graphql } from "gatsby"
 import PropTypes from "prop-types"
-import Lightbox from "../components/lightbox"
+import Lightbox from "../components/Completions/lightbox"
 import { Container } from "react-bootstrap"
-import CompletionsStyles from "../components/css/completions.module.scss"
+import CompletionsStyles from "../components/Completions/completions.module.scss"
 
 const Completions = ({ data }) => (
   <Layout>

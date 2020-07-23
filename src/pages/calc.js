@@ -1,7 +1,7 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/Layouts/Layout"
 import SEO from "../components/seo"
-import Calc2 from "../components/js/Calculator"
+import Calc2 from "../components/Calculator/Calculator"
 
 const Calculator = () => (
   <Layout>

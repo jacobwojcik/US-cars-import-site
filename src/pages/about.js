@@ -1,15 +1,12 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/Layouts/Layout"
 import SEO from "../components/seo"
-import About1 from "../components/js/About1"
-import AboutusMob from "../components/js/Aboutusmob"
+import AboutUs from "../components/About/About"
 
 const About = () => (
   <Layout>
     <SEO title="O nas" />
-    <About1 />
-
-    <AboutusMob />
+    <AboutUs />
   </Layout>
 )
 

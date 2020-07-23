@@ -1,0 +1,55 @@
+@import "../css/index";
+
+.contactSection {
+  background-color: $primaryCol;
+  height: 100%;
+  padding: 70px;
+  text-align: center;
+  color: $primaryCol;
+  h1 {
+    color: $secondaryCol;
+  }
+  h2 {
+    color: $secondaryCol;
+  }
+  p {
+    color: $primaryCol;
+  }
+  svg {
+    padding: 10px;
+  }
+}
+
+.contactCol {
+  padding-top: 40px;
+  background-color: $secondaryCol;
+  text-align: center;
+  border-right: 1px solid $primaryCol;
+  border-left: 1px solid $secondaryCol;
+}
+
+.contactForm {
+  background-color: $secondaryCol;
+  padding: 20px;
+  color: $primaryCol;
+}
+
+.thanksPage {
+  padding-top: 250px;
+  padding-bottom: 250px;
+  text-align: center;
+  color: rgb(22, 55, 161);
+}
+
+@media (max-width: 500px) {
+  .contactSection {
+    padding: 20px;
+  }
+  .contactCol {
+    padding-top: 40px;
+    text-align: center;
+    padding: 10px;
+    border-right: 1px solid rgb(22, 55, 161);
+    border-left: 1px solid rgb(22, 55, 161);
+  }
+}

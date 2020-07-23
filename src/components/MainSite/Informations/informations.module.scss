@@ -1,0 +1,62 @@
+@import "../../css/index";
+
+//Information section
+.sec1 {
+  background-color: $primaryCol;
+  padding: 50px;
+  color: $blackCol;
+  text-align: center;
+
+  h1 {
+    color: $secondaryCol;
+  }
+  h3 {
+    @extend h1;
+  }
+  p {
+    @extend h1;
+  }
+}
+
+.sec2col {
+  text-align: center;
+  padding: 20px;
+  svg {
+    fill: rgb(214, 21, 21);
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+  }
+}
+
+//Information2 section
+
+.backImg {
+  background-image: url("../../../images/mercedes.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+.aboutCol {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(35, 46, 199);
+  opacity: 0.8;
+}
+.aboutRow {
+  padding: 20px;
+}
+
+@media (max-width: 700px) {
+  .backImg {
+    background-image: url("../../../images/carback.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    h1 {
+      color: white;
+      text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+    }
+  }
+}

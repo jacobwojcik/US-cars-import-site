@@ -1,5 +1,12 @@
-#UScars Import Website
+# UScars Import Website
 
-##Watch Live:
+### Live version: [UScars Import](https://uscarsimport.pl)
 
-[UScars Import](https://uscarsimport.pl).
+I've created this website for [UScars Import](https://www.facebook.com/USAUScars) company
+
+##### Technologies:
+
+- Gatsby
+- React Hooks
+- SASS
+- Bootstrap

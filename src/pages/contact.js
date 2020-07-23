@@ -1,13 +1,13 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
-import Layoutcon from "../components/layoutcon"
+import Layout from "../components/Layouts/Layout"
 import SEO from "../components/seo"
 import { FaFacebook, FaMapMarkedAlt, FaEnvelope, FaPhone } from "react-icons/fa"
-import ContactForm from "../components/js/Contactform"
-import contactStyles from "../components/css/contact.module.scss"
+import ContactForm from "../components/Contact/Contactform"
+import contactStyles from "../components/Contact/contact.module.scss"
 
 const Contact = () => (
-  <Layoutcon>
+  <Layout>
     <SEO title="Kontakt" />
     <section className={contactStyles.contactSection}>
       <Container>
@@ -60,7 +60,7 @@ const Contact = () => (
       </Container>
       <ContactForm />
     </section>
-  </Layoutcon>
+  </Layout>
 )
 
 export default Contact

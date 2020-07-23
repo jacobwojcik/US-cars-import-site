@@ -1,0 +1,28 @@
+@import "../../css/index";
+
+.sec6 {
+  background-color: $secondaryCol;
+  padding: 30px;
+  height: auto;
+  color: $primaryCol;
+}
+.col1 {
+  text-align: center;
+  padding: 15px;
+}
+.col2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+.map {
+  width: 700px;
+  height: 500px;
+}
+@media (max-width: 500px) {
+  .map {
+    width: 100px;
+    height: 100px;
+  }
+}

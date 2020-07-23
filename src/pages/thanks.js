@@ -1,7 +1,7 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/Layouts/Layout"
 import SEO from "../components/seo"
-import contactStyles from "../components/css/contact.module.scss"
+import contactStyles from "../components/Contact/contact.module.scss"
 
 const Thanks = () => (
   <Layout>
