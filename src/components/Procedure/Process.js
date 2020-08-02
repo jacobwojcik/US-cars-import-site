@@ -16,8 +16,12 @@ export default function Process() {
       <Container>
         <Row>
           <h1>JAK WYBRAĆ I SPROWADZIĆ SAMOCHÓD Z USA LUB KANADY?</h1>
-          <Col md={4}>
+        </Row>
+        <div className={ProcedureStyles.procedureRow}>
+          <div>
             <FaSearchDollar size="5em" className={ProcedureStyles.icon} />
+          </div>
+          <div>
             <h2>1. WYBÓR ODPOWIEDNIEGO MODELU</h2>
             <p>
               Współpracę rozpoczynamy od wyszukania odpowiedniego samochodu.
@@ -25,9 +29,13 @@ export default function Process() {
               oraz Autocheck. Po sprawdzeniu historii klient otrzymuje od nas
               kosztorys sprowadzenia.{" "}
             </p>
-          </Col>
-          <Col md={4}>
+          </div>
+        </div>
+        <div className={ProcedureStyles.procedureRow}>
+          <div>
             <FaCalculator size="5em" className={ProcedureStyles.icon} />
+          </div>
+          <div>
             <h2>2. UMOWA ORAZ ZALICZKA</h2>
             <p>
               Po dokonaniu wyboru pojazdu, podpisujemy umowę która jest formą
@@ -36,10 +44,14 @@ export default function Process() {
               przypadku niepomyślnego zakończenia licytacji kaucja jest
               zwracana, bądź pozostaje na poczet kolejnych aukcji.{" "}
             </p>
-          </Col>
-          <Col md={4}>
+          </div>
+        </div>
+        <div className={ProcedureStyles.procedureRow}>
+          <div>
             <FaClipboardList size="5em" className={ProcedureStyles.icon} />
-            <h2>3. PŁATNOŚC ZA SAMOCHÓD</h2>
+          </div>
+          <div>
+            <h2>3. PŁATNOŚĆ ZA SAMOCHÓD</h2>
             <p>
               Po otrzymaniu informacji o wygranej aukcji, Klient jest
               zobowiązany dokonać pełnej opłaty za koszty związane z zakupem
@@ -47,12 +59,13 @@ export default function Process() {
               w Stanach Zjednoczonych w ciągu 2 dni roboczych. Jest to warunek
               konieczny, aby uniknąć dodatkowo naliczonych opłat.{" "}
             </p>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={4}>
+          </div>
+        </div>
+        <div className={ProcedureStyles.procedureRow}>
+          <div>
             <FaAngleDoubleRight size="5em" className={ProcedureStyles.icon} />
-
+          </div>
+          <div>
             <h2>4. TRANSPORT</h2>
             <p>
               Po dokonaniu płatności za samochód, możemy rozpocząć procedurę
@@ -62,19 +75,26 @@ export default function Process() {
               wyrusza w podróż do Europy. Klient otrzymuje od nas link, w którym
               może monitorować lokalizacje kontenera
             </p>
-          </Col>
-          <Col md={4}>
+          </div>
+        </div>
+        <div className={ProcedureStyles.procedureRow}>
+          <div>
             <FaCheckSquare size="5em" className={ProcedureStyles.icon} />
+          </div>
+          <div>
             <h2>5. ODPRAWA CELNA</h2>
             <p>
               Po dotarciu pojazdu do portu w Bremerhaven organizujemy opłaty
               celno-skarbowe. Po zakończeniu procedury clenia klient płaci
               należności bezpośrednio do agencji celnej.{" "}
             </p>
-          </Col>
-          <Col md={4}>
+          </div>
+        </div>
+        <div className={ProcedureStyles.procedureRow}>
+          <div>
             <FaCarAlt size="5em" className={ProcedureStyles.icon} />
-
+          </div>
+          <div>
             <h2>6. ODBIÓR SAMOCHODU</h2>
             <p>
               Po zapłacie należności, auto zostaje zwolnione. Wtedy organizujemy
@@ -84,8 +104,8 @@ export default function Process() {
               przeglądem. Klientowi zostaje jedynie zarejestrować i odebrać swój
               nowy samochód z siedziby naszej firmy.{" "}
             </p>
-          </Col>
-        </Row>
+          </div>
+        </div>
       </Container>
     </section>
   )

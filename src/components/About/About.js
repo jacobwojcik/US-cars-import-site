@@ -7,7 +7,7 @@ const About = () => {
     <section className={AboutStyles.aboutus}>
       <div>
         <h1>Kilka słów o nas</h1>
-        <h2>
+        <p>
           Klienci, którzy zdecydują się skorzystać z naszych usług, mogą liczyć
           na szybką i fachową pomoc na każdym etapie importu auta z USA bądź
           Kanady. Nie musisz się martwić o formalności – bierzemy to na siebie,
@@ -16,7 +16,7 @@ const About = () => {
           transportem zza wielkiej wody zakupionego przez Ciebie auta, który
           trafi do Ciebie razem z kluczykami do stacyjki wkrótce po tym, jak
           przekroczy polską granicę.
-        </h2>
+        </p>
       </div>
       <div>
         <Car1 />

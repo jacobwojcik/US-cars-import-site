@@ -8,7 +8,7 @@ const ImageCarousel3 = () => {
       image: file(relativePath: { eq: "maincar1.jpg" }) {
         id
         childImageSharp {
-          fluid(quality: 99) {
+          fluid(quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }
