@@ -38,8 +38,12 @@ const Contact = () => (
           <Col sm={6} className={contactStyles.contactCol}>
             <FaPhone size="5em" />
             <h3>Telefon</h3>
-            <p>502 603 263</p>
-            <p>501 151 463</p>
+            <p>
+              <a href="tel:502603263">502 603 263 </a>
+            </p>
+            <p>
+              <a href="tel:501151463">501 151 463 </a>
+            </p>
           </Col>
         </Row>
         <Row>
@@ -51,7 +55,11 @@ const Contact = () => (
           <Col sm={6} className={contactStyles.contactCol}>
             <FaEnvelope size="5em" />
             <h3>E-mail</h3>
-            <p>kontakt.uscars@gmail.com</p>
+            <p>
+              <a href="mailto:kontakt.uscars@gmail.com">
+                kontakt.uscars@gmail.com
+              </a>
+            </p>
           </Col>
         </Row>
         <Row>
