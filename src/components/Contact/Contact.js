@@ -79,7 +79,7 @@ const Contact = () => {
             <Row>
               <Col>
                 <Form
-                  className={styles.contactForm}
+                  // className={styles.contactForm}
                   name="contact"
                   method="post"
                   data-netlify="true"
@@ -138,7 +138,7 @@ const Contact = () => {
                     />
                   </Form.Group>
 
-                  <Button variant="light" type="submit">
+                  <Button variant="primary" type="submit">
                     Wyślij!
                   </Button>
                 </Form>

@@ -17,7 +17,7 @@
   display: flex;
   flex-flow: column;
   justify-content: space-around;
-  border: 2px solid $tertiaryCol;
+  box-shadow: 0 4px 17px rgba(214, 40, 17, 0.35);
   height: 100%;
   h2 {
     color: $tertiaryCol;
@@ -45,9 +45,10 @@
 }
 
 .contactForm {
-  background-color: $secondaryCol;
+  background-color: $primaryCol;
   text-align: center;
-  color: $primaryCol;
+  color: $secondaryCol;
+  box-shadow: 0 4px 17px rgba(37, 25, 204, 0.35);
 }
 .con {
   padding: 1.5em;
@@ -77,6 +78,9 @@
     h2 {
       font-size: 18px;
     }
+  }
+  .contactInfo {
+    padding: 1em 0;
   }
   .mainView {
     display: none;
