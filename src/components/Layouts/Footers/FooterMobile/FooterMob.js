@@ -9,7 +9,6 @@ export default function Footermob() {
       <Container>
         <Row>
           <Col className={FooterStyles.fcol}>
-            <br></br>
             <a
               href="https://www.instagram.com/uscars_import/?hl=pl&fbclid=IwAR0ZVCdEGhZ1ZXbxZoNMSon-RGgEeKWB3C3ki-UfTA26Jt_YexXKEiOX_CA"
               target="_blank"
@@ -26,11 +25,10 @@ export default function Footermob() {
             </a>
             <h3>Instagram</h3>
           </Col>
-          <Col className={FooterStyles.fcol}>
+          <Col style={{ textAlign: "center", paddingRight: "5px" }}>
             <Logo2 />
           </Col>
           <Col className={FooterStyles.fcol}>
-            <br></br>
             <a
               href="https://www.facebook.com/USAUScars"
               target="_blank"
@@ -52,7 +50,7 @@ export default function Footermob() {
           © 2020 Copyright:
           <a
             className={FooterStyles.sign}
-            href="http://www.jacobw.pl"
+            href="http://github.com/jacobwojcik"
             target="_blank"
             rel="noopener noreferrer"
           >

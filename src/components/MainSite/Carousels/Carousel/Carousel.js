@@ -14,7 +14,7 @@ export default function Carousels() {
       <Carousel>
         <Carousel.Item>
           {/* <Car1 /> */}
-          <img src={Car} />
+          <img src={Car} alt="" />
           <Carousel.Caption>
             <h2 className="animated zoomIn slow">UScars Import</h2>
             <h3 className="animated zoomIn slow">Najlepsze samochody z USA</h3>
@@ -22,7 +22,7 @@ export default function Carousels() {
         </Carousel.Item>
         <Carousel.Item>
           {/* <Car2 /> */}
-          <img src={Car2} />
+          <img src={Car2} alt="" />
           <Carousel.Caption>
             <h2 className="animated zoomIn slow">UScars Import</h2>
             <h3 className="animated zoomIn slow">
@@ -32,7 +32,7 @@ export default function Carousels() {
         </Carousel.Item>
         <Carousel.Item>
           {/* <Car3 /> */}
-          <img src={Car3} />
+          <img src={Car3} alt="" />
           <Carousel.Caption>
             <h2 className="animated zoomIn slow">UScars Import</h2>
             <h3 className="animated zoomIn slow">Sprawdź nas już teraz!</h3>

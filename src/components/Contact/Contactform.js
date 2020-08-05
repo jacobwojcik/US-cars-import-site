@@ -7,7 +7,7 @@ const ContactForm = () => {
     <Container>
       <Row>
         <Col>
-          <h1 className="blueP">Lub napisz odrazu!</h1>
+          <h1>Lub napisz odrazu!</h1>
         </Col>
       </Row>
 
