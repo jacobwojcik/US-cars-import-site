@@ -7,7 +7,12 @@ const Information2 = () => {
   return (
     <section className={InfStyles.backImg}>
       <div>
-        <Container>
+        <Container
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+        >
           <Row>
             <Col>
               <h1>Dlaczego my?</h1>

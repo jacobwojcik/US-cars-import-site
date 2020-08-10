@@ -1,9 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 //variables
 $primaryCol: rgb(255, 255, 255);
 $secondaryCol: rgb(35, 46, 199);
 $tertiaryCol: rgb(238, 32, 32);
 $blackCol: rgb(0, 0, 0);
 
+body {
+  font-family: "Lato", sans-serif;
+}
 a {
   color: inherit;
   text-decoration: none;

@@ -29,9 +29,17 @@ const Contact = () => {
               <FaPhone size="4em" color="blue" />
             </div>
             <div>
-              <h2>
+              <h2 className={styles.mainView}>
                 <a href="tel:502603263">502 603 263 </a> lub
                 <a href="tel:501151463"> 501 151 463 </a>
+              </h2>
+              <h2 className={styles.mobileView}>
+                <section>
+                  <a href="tel:502603263">502 603 263 </a>
+                </section>
+                <section>
+                  <a href="tel:501151463"> 501 151 463 </a>
+                </section>
               </h2>
             </div>
           </div>

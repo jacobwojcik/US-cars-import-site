@@ -24,7 +24,14 @@ const Information = () => {
             </Col>
           </Row>
           <Row>
-            <Col className={AboutStyles.sec2col} sm={3}>
+            <Col
+              className={AboutStyles.sec2col}
+              sm={3}
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-easing="ease-in-out"
+              data-aos-once="true"
+            >
               <svg
                 className="animated infinite pulse"
                 version="1.1"
@@ -41,7 +48,14 @@ const Information = () => {
               <h3>WYSZUKANIE SAMOCHODU</h3>
               <p>Znajdziemy samochód w USA lub Kanadzie, idealny dla Ciebie.</p>
             </Col>
-            <Col className={AboutStyles.sec2col} sm={3}>
+            <Col
+              className={AboutStyles.sec2col}
+              sm={3}
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-easing="ease-in-out"
+              data-aos-once="true"
+            >
               <svg
                 className="animated infinite pulse"
                 height="512pt"
@@ -56,7 +70,14 @@ const Information = () => {
               <h3>ZAKUP SAMOCHODU</h3>
               <p>Sfinalizujemy zakup wskazanego samochodu na licytacji.</p>
             </Col>
-            <Col className={AboutStyles.sec2col} sm={3}>
+            <Col
+              className={AboutStyles.sec2col}
+              sm={3}
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-once="true"
+            >
               <svg
                 className="animated infinite pulse"
                 id="Слой_1"
@@ -76,7 +97,14 @@ const Information = () => {
                 Załatwimy wszystkie formalności związane z importem samochodu.
               </p>
             </Col>
-            <Col className={AboutStyles.sec2col} sm={3}>
+            <Col
+              className={AboutStyles.sec2col}
+              sm={3}
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              data-aos-easing="ease-in-out"
+              data-aos-once="true"
+            >
               <svg
                 className="animated infinite pulse"
                 height="512pt"

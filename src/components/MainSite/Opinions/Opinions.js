@@ -1,7 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import OpinionStyle from "./opinions.module.scss"
-import "animate.css/animate.css"
 
 export default function Opinions() {
   return (
@@ -13,7 +12,14 @@ export default function Opinions() {
           </Col>
         </Row>
         <Row>
-          <Col md={4} className={OpinionStyle.opinionCol}>
+          <Col
+            md={4}
+            className={OpinionStyle.opinionCol}
+            data-aos="fade-up"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
+          >
             <div>
               <svg
                 class="bi bi-chat-square-quote-fill"
@@ -38,7 +44,14 @@ export default function Opinions() {
               </p>
             </div>
           </Col>
-          <Col md={4} className={OpinionStyle.opinionCol}>
+          <Col
+            md={4}
+            className={OpinionStyle.opinionCol}
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
+          >
             <div>
               <svg
                 class="bi bi-chat-square-quote-fill"
@@ -63,7 +76,14 @@ export default function Opinions() {
               </p>
             </div>
           </Col>
-          <Col md={4} className={OpinionStyle.opinionCol}>
+          <Col
+            md={4}
+            className={OpinionStyle.opinionCol}
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
+          >
             <div>
               <svg
                 class="bi bi-chat-square-quote-fill"

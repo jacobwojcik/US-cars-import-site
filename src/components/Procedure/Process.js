@@ -17,7 +17,13 @@ export default function Process() {
         <Row>
           <h1>JAK WYBRAĆ I SPROWADZIĆ SAMOCHÓD Z USA LUB KANADY?</h1>
         </Row>
-        <div className={ProcedureStyles.procedureRow}>
+        <div
+          className={ProcedureStyles.procedureRow}
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+        >
           <div>
             <FaSearchDollar size="5em" className={ProcedureStyles.icon} />
           </div>
@@ -31,7 +37,13 @@ export default function Process() {
             </p>
           </div>
         </div>
-        <div className={ProcedureStyles.procedureRow}>
+        <div
+          className={ProcedureStyles.procedureRow}
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+        >
           <div>
             <FaCalculator size="5em" className={ProcedureStyles.icon} />
           </div>
@@ -46,7 +58,13 @@ export default function Process() {
             </p>
           </div>
         </div>
-        <div className={ProcedureStyles.procedureRow}>
+        <div
+          className={ProcedureStyles.procedureRow}
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+        >
           <div>
             <FaClipboardList size="5em" className={ProcedureStyles.icon} />
           </div>
@@ -61,7 +79,13 @@ export default function Process() {
             </p>
           </div>
         </div>
-        <div className={ProcedureStyles.procedureRow}>
+        <div
+          className={ProcedureStyles.procedureRow}
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+        >
           <div>
             <FaAngleDoubleRight size="5em" className={ProcedureStyles.icon} />
           </div>
@@ -77,7 +101,13 @@ export default function Process() {
             </p>
           </div>
         </div>
-        <div className={ProcedureStyles.procedureRow}>
+        <div
+          className={ProcedureStyles.procedureRow}
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+        >
           <div>
             <FaCheckSquare size="5em" className={ProcedureStyles.icon} />
           </div>
@@ -90,7 +120,13 @@ export default function Process() {
             </p>
           </div>
         </div>
-        <div className={ProcedureStyles.procedureRow}>
+        <div
+          className={ProcedureStyles.procedureRow}
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+        >
           <div>
             <FaCarAlt size="5em" className={ProcedureStyles.icon} />
           </div>

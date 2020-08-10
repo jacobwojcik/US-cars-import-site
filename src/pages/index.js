@@ -10,19 +10,24 @@ import Map from "../components/MainSite/Map/Map"
 import Carousel from "../components/MainSite/Carousels/Carousel/Carousel"
 import CarouselMob from "../components/MainSite/Carousels/CarouselMobile/Carouselmobile"
 import "../components/css/bootstrapstyles.scss"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Strona główna" />
-    <Carousel />
-    <CarouselMob />
-    <Information />
-    <Information2 />
-    <Opinions />
-    <Marketing />
-    <Offers />
-    <Map />
-  </Layout>
-)
+const IndexPage = () => {
+  AOS.init()
+  return (
+    <Layout>
+      <SEO title="Strona główna" />
+      <Carousel />
+      <CarouselMob />
+      <Information />
+      <Information2 />
+      <Opinions />
+      <Marketing />
+      <Offers />
+      <Map />
+    </Layout>
+  )
+}
 
 export default IndexPage
