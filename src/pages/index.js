@@ -14,7 +14,9 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 
 const IndexPage = () => {
-  AOS.init()
+  if (typeof window !== "undefined") {
+    AOS.init()
+  }
   return (
     <Layout>
       <SEO title="Strona główna" />
