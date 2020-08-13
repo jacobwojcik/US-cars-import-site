@@ -9,7 +9,7 @@ const Marketing = () => {
         <Container>
           <Row>
             <Col
-              data-aos="fade-left"
+              data-aos="slide-left"
               data-aos-duration="800"
               data-aos-easing="ease-in-out"
               data-aos-once="true"
@@ -27,7 +27,7 @@ const Marketing = () => {
           </Row>
           <Row>
             <Col
-              data-aos="fade-left"
+              data-aos="slide-left"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-once="true"
@@ -45,7 +45,7 @@ const Marketing = () => {
           </Row>
           <Row>
             <Col
-              data-aos="fade-left"
+              data-aos="slide-left"
               data-aos-duration="1200"
               data-aos-easing="ease-in-out"
               data-aos-once="true"

@@ -19,8 +19,8 @@ const Offers = () => {
             lg={4}
             className={OffersStyles.offerCol}
             data-aos="fade-up"
-            data-offset="250"
-            data-aos-duration="600"
+            data-offset="350"
+            data-aos-duration="800"
             data-aos-easing="ease-in-out"
             data-aos-once="true"
           >
@@ -48,8 +48,8 @@ const Offers = () => {
             lg={4}
             className={OffersStyles.offerCol}
             data-aos="fade-up"
-            data-offset="250"
-            data-aos-duration="800"
+            data-offset="350"
+            data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-once="true"
           >
@@ -77,8 +77,8 @@ const Offers = () => {
             lg={4}
             className={OffersStyles.offerCol}
             data-aos="fade-up"
-            data-offset="250"
-            data-aos-duration="1000"
+            data-offset="350"
+            data-aos-duration="1200"
             data-aos-easing="ease-in-out"
             data-aos-once="true"
           >

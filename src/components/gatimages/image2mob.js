@@ -3,23 +3,23 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 const Image2mob = () => {
-    const data = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     query getlImage {
-        image:file(relativePath: {eq: "cartest2.jpg"}) {
-          id
-          childImageSharp {
-            fixed(width:500) {
-              ...GatsbyImageSharpFixed
-            }
-            fluid {
-                ...GatsbyImageSharpFluid
-            }
+      image: file(relativePath: { eq: "car2.jpg" }) {
+        id
+        childImageSharp {
+          fixed(width: 500) {
+            ...GatsbyImageSharpFixed
+          }
+          fluid {
+            ...GatsbyImageSharpFluid
           }
         }
       }
-    `)
-  
-    return <Img fluid={data.image.childImageSharp.fluid} />
-  }
-  
-  export default Image2mob
+    }
+  `)
+
+  return <Img fluid={data.image.childImageSharp.fluid} />
+}
+
+export default Image2mob

@@ -13,8 +13,8 @@ const Calc2 = () => {
     custom: 0,
     delivery: 0,
     sum: 0,
-    dol: 4.0,
-    eur: 4.5,
+    dol: 3.7,
+    eur: 4.4,
   })
 
   useEffect(() => {
@@ -24,6 +24,9 @@ const Calc2 = () => {
         let dolrate = 1 / data.rates.USD
         let eurorate = 1 / data.rates.EUR
         setValues({ ...states, dol: dolrate, eur: eurorate })
+      })
+      .catch(err => {
+        setValues({ ...states, dol: 3.7, eur: 4.4 })
       })
   }, [])
 
