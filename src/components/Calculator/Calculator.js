@@ -115,7 +115,7 @@ const Calc2 = () => {
     customCharge *= 0.29
     customCharge *= Number(states.eur) //euro
     customCharge += 2000
-    result = Math.floor(result + customCharge + 3900)
+    result = Math.floor(result + customCharge + 4400)
 
     setValues({
       ...states,
