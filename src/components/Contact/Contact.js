@@ -48,7 +48,7 @@ const Contact = () => {
               <FaMapMarkedAlt size="4em" color="blue" />
             </div>
             <div>
-              <h2>ul.Szkotnik 2B, Tarnów</h2>
+              <h2>ul.Gumniska 10, Tarnów</h2>
             </div>
           </div>
           <div>
