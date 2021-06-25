@@ -1,8 +1,8 @@
 # UScars Import Website
 
-### Live version: [UScars Import](https://uscarsimport.pl)
+### Archived live version: [UScars Import Archive](https://us-cars.netlify.app)
 
-I've created this website for [UScars Import](https://www.facebook.com/USAUScars) company
+I've created this website for [UScars Import](https://www.facebook.com/USAUScars) company 
 
 ##### Technologies:
 
